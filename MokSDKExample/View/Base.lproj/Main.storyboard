@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kep-1B-IhF">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Kc2-Px-Mfr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kep-1B-IhF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vtH-kL-PCG">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Vrc-Zl-FLJ" kind="relationship" relationship="rootViewController" id="w4j-YK-bSa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7KL-hD-dDU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="-11"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="EdV-ai-b13">
+            <objects>
+                <viewController storyboardIdentifier="UMHomeViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Vrc-Zl-FLJ" customClass="UMHomeViewController" customModule="MokSDKExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fzX-Vk-CuV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKD-1k-tjM">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mok iOS SDK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4t-L4-O48">
+                                        <rect key="frame" x="20" y="57" width="353" height="33"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84313725490196079" green="0.31764705882352939" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="C4t-L4-O48" secondAttribute="bottom" constant="10" id="UGE-ec-trB"/>
+                                    <constraint firstAttribute="height" constant="100" id="XVP-vp-mNe"/>
+                                    <constraint firstItem="C4t-L4-O48" firstAttribute="leading" secondItem="TKD-1k-tjM" secondAttribute="leading" constant="20" id="ZRV-HH-ZAa"/>
+                                    <constraint firstItem="C4t-L4-O48" firstAttribute="top" relation="greaterThanOrEqual" secondItem="TKD-1k-tjM" secondAttribute="top" constant="20" id="hvu-On-5z6"/>
+                                    <constraint firstAttribute="trailing" secondItem="C4t-L4-O48" secondAttribute="trailing" constant="20" id="lqE-3E-XUa"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YXy-rY-RS8">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749.00000000000045"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQG-7C-Z6X">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1943"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wK2-wO-Jub">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="1943"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LzD-mv-Dd8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="206.33333333333334"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EIn-DQ-MRK">
+                                                                <rect key="frame" x="20" y="20" width="353" height="166.33333333333334"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Details Logging" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wB-86-naY">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="24.666666666666668"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_USer_ID_Title_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter User ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAn-QA-q0l">
+                                                                        <rect key="frame" x="0.0" y="39.666666666666657" width="353" height="16.666666666666671"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Enter_User_ID_Title_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="12"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JZo-aH-C9W" customClass="UMTextField" customModule="MokSDKExample" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="71.333333333333343" width="353" height="35"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_User_Id_Text_Field"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="35" id="aOf-Cf-oGW"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                                <color key="value" white="0.41998106060606055" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <outlet property="delegate" destination="Vrc-Zl-FLJ" id="qaF-uS-nFm"/>
+                                                                        </connections>
+                                                                    </textField>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BDf-nZ-Cg1">
+                                                                        <rect key="frame" x="0.0" y="121.33333333333334" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.38039215686274508" green="0.23529411764705882" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_User_ID_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="9w4-ms-DrU"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="UPDATE USER ID">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="unnamed" imagePlacement="trailing" title="UPDATE USER ID" imagePadding="10">
+                                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </buttonConfiguration>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="updateUserIdTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="9mk-QB-VqZ"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.77647058823529413" green="0.792156862745098" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_User_ID_Container_View"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="EIn-DQ-MRK" secondAttribute="trailing" constant="20" id="6E6-Ra-ba7"/>
+                                                            <constraint firstAttribute="bottom" secondItem="EIn-DQ-MRK" secondAttribute="bottom" constant="20" id="8ej-wi-bjc"/>
+                                                            <constraint firstItem="EIn-DQ-MRK" firstAttribute="leading" secondItem="LzD-mv-Dd8" secondAttribute="leading" constant="20" id="QoQ-uR-sKl"/>
+                                                            <constraint firstItem="EIn-DQ-MRK" firstAttribute="top" secondItem="LzD-mv-Dd8" secondAttribute="top" constant="20" id="vHZ-lM-po0"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UB1-Y0-je1">
+                                                        <rect key="frame" x="0.0" y="206.33333333333331" width="393" height="270"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Pgg-I1-Oc1">
+                                                                <rect key="frame" x="20" y="20" width="353" height="230"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Logging" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bc0-rV-LrQ">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="24.666666666666668"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Activity_Tile"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter event name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ciT-BH-ueP" customClass="UMTextField" customModule="MokSDKExample" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="39.666666666666686" width="353" height="35"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Event_Name_Text_Field"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="35" id="fKU-E4-ZbX"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                                <color key="value" white="0.41998106060000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <outlet property="delegate" destination="Vrc-Zl-FLJ" id="SjA-a2-ECW"/>
+                                                                        </connections>
+                                                                    </textField>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter params" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6h9-ot-4e3" customClass="UMTextField" customModule="MokSDKExample" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="89.666666666666686" width="353" height="35"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Event_Param_Text_Field"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="35" id="L8Q-SY-5GD"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                                <color key="value" white="0.41998106060000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <outlet property="delegate" destination="Vrc-Zl-FLJ" id="IXN-VI-ONa"/>
+                                                                        </connections>
+                                                                    </textField>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="add comma seperated key value pairs  eg: {&quot;index&quot;: 1, &quot;name&quot;: &quot;dashboard&quot;}" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vc2-mq-Jwr">
+                                                                        <rect key="frame" x="0.0" y="139.66666666666669" width="353" height="30.333333333333343"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="11"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJi-yM-Nye">
+                                                                        <rect key="frame" x="0.0" y="185.00000000000006" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.40392156862745099" green="0.67450980392156867" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Log_Event_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="1n2-8k-SbV"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="LOG EVENT">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="logEventTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="ld4-gi-tbc"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.80784313725490198" green="0.89803921568627454" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Activity_Log-Container_View"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="Pgg-I1-Oc1" secondAttribute="trailing" constant="20" id="2SL-Bt-u8H"/>
+                                                            <constraint firstItem="Pgg-I1-Oc1" firstAttribute="top" secondItem="UB1-Y0-je1" secondAttribute="top" constant="20" id="3UL-cr-iuJ"/>
+                                                            <constraint firstItem="Pgg-I1-Oc1" firstAttribute="leading" secondItem="UB1-Y0-je1" secondAttribute="leading" constant="20" id="RdG-A1-PA9"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Pgg-I1-Oc1" secondAttribute="bottom" constant="20" id="dvS-v8-lDP"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Sb-WL-nHP">
+                                                        <rect key="frame" x="0.0" y="476.33333333333343" width="393" height="199.66666666666669"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="hbE-G9-2Wf">
+                                                                <rect key="frame" x="20" y="20" width="353" height="159.66666666666666"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FCM Token" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRn-Gw-8xk">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="24.666666666666668"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fcm_Token_Title_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4h3-Ap-sgE">
+                                                                        <rect key="frame" x="0.0" y="39.666666666666629" width="353" height="0.0"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fcm_Token_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYl-b7-yFc">
+                                                                        <rect key="frame" x="0.0" y="54.666666666666629" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.88235294117647056" green="0.32156862745098036" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fetch_Fcm_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="Nyu-Hs-bJM"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="FETCH FCM">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="fetchFCMTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="8l8-F1-vqR"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eY6-oP-DJo">
+                                                                        <rect key="frame" x="0.0" y="114.66666666666663" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.88235294117647056" green="0.32156862745098036" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Update_Fcm_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="Sta-Gn-TBY"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="UPDATE FCM">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="updateFCMTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="WDo-q3-s0Q"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.96862745098039216" green="0.81176470588235294" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fcm_Token_Container_View"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="hbE-G9-2Wf" secondAttribute="bottom" constant="20" id="7XJ-2r-Txh"/>
+                                                            <constraint firstItem="hbE-G9-2Wf" firstAttribute="top" secondItem="1Sb-WL-nHP" secondAttribute="top" constant="20" id="G5o-2M-pL8"/>
+                                                            <constraint firstItem="hbE-G9-2Wf" firstAttribute="leading" secondItem="1Sb-WL-nHP" secondAttribute="leading" constant="20" id="Lpp-Pi-1h6"/>
+                                                            <constraint firstAttribute="trailing" secondItem="hbE-G9-2Wf" secondAttribute="trailing" constant="20" id="Zqn-8E-T2r"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgm-Wq-M3R">
+                                                        <rect key="frame" x="0.0" y="676" width="393" height="199.66666666666663"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="vyZ-Ct-enY">
+                                                                <rect key="frame" x="20" y="20" width="353" height="159.66666666666666"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APNs " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rQ-cl-u1T">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="24.666666666666668"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fcm_Token_Title_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8Y-aw-lKb">
+                                                                        <rect key="frame" x="0.0" y="39.666666666666629" width="353" height="0.0"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fcm_Token_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAP-l5-5dY">
+                                                                        <rect key="frame" x="0.0" y="54.666666666666629" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.89803921568627454" green="0.68627450980392157" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fetch_Fcm_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="3uR-ew-nc9"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="FETCH APNS Token">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="fetchApnsTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="Ou0-FK-q70"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUr-uD-46s">
+                                                                        <rect key="frame" x="0.0" y="114.66666666666663" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.89784135903216766" green="0.68575131980769233" blue="0.27432394506573426" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Update_Fcm_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="7FU-YY-FVh"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="UPDATE APNS Token">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="updateApnsTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="ByW-2O-dTZ"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="1" green="0.95686274509803915" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fcm_Token_Container_View"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="vyZ-Ct-enY" secondAttribute="bottom" constant="20" id="NzZ-Ey-2Da"/>
+                                                            <constraint firstAttribute="trailing" secondItem="vyZ-Ct-enY" secondAttribute="trailing" constant="20" id="Z5h-yF-Xfy"/>
+                                                            <constraint firstItem="vyZ-Ct-enY" firstAttribute="leading" secondItem="cgm-Wq-M3R" secondAttribute="leading" constant="20" id="apt-w3-YDI"/>
+                                                            <constraint firstItem="vyZ-Ct-enY" firstAttribute="top" secondItem="cgm-Wq-M3R" secondAttribute="top" constant="20" id="zSz-xA-VFw"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vUG-vB-WY6">
+                                                        <rect key="frame" x="0.0" y="875.66666666666663" width="393" height="304.66666666666663"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="2Vp-fH-5Ih">
+                                                                <rect key="frame" x="20" y="20" width="353" height="264.66666666666669"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In app messages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73p-2U-KVV">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="84.666666666666671"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Inapp_Tile_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxM-V9-auc">
+                                                                        <rect key="frame" x="0.0" y="99.666666666666629" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.29411764705882354" green="0.65098039215686276" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fetch_All_In_App_Msg_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="e3t-nZ-17T"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="FETCH ALL IN APP MESSAGES">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="fetchAllInappPopupsTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="yJo-Ao-iRT"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJi-nK-x0m">
+                                                                        <rect key="frame" x="0.0" y="159.66666666666663" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.29411764705882354" green="0.65098039215686276" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Show_In_App_Msg_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="Z4l-aG-keT"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="SHOW IN APP MESSAGE">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="showAllInappPopupsTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="aw3-5r-4Hq"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHu-qC-ZLD">
+                                                                        <rect key="frame" x="0.0" y="219.66666666666663" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.29411764705882354" green="0.65098039215686276" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Delete_All_In_App_Msg_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="Dom-n9-kVz"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="DELETE ALL IN APP MESSAGES">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="deleteAllInappPopupsTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="h8L-zZ-U9D"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.76078431372549016" green="0.8666666666666667" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_In_App_Msg_Container_View"/>
+                                                        <constraints>
+                                                            <constraint firstItem="2Vp-fH-5Ih" firstAttribute="top" secondItem="vUG-vB-WY6" secondAttribute="top" constant="20" id="Euf-La-Ksd"/>
+                                                            <constraint firstAttribute="trailing" secondItem="2Vp-fH-5Ih" secondAttribute="trailing" constant="20" id="e5t-gj-CP0"/>
+                                                            <constraint firstItem="2Vp-fH-5Ih" firstAttribute="leading" secondItem="vUG-vB-WY6" secondAttribute="leading" constant="20" id="epR-Ng-3oT"/>
+                                                            <constraint firstAttribute="bottom" secondItem="2Vp-fH-5Ih" secondAttribute="bottom" constant="20" id="wJx-B2-toL"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xUN-aW-7eT">
+                                                        <rect key="frame" x="0.0" y="1180.3333333333333" width="393" height="492.66666666666674"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="hd1-72-FmP">
+                                                                <rect key="frame" x="20" y="20" width="353" height="452.66666666666669"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onboarding Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q24-AJ-gLd">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="332.66666666666669"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Onboard_Text"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teC-4Q-fu0">
+                                                                        <rect key="frame" x="0.0" y="347.66666666666674" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.3803921569" green="0.23529411759999999" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Fetch_Onboard_Data_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="vPU-AN-xfr"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="FETCH ONBOARDING SCREEN DATA">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="fetchOnboardingScreenDataTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="PJO-Ak-RJ1"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEF-Gc-UcQ">
+                                                                        <rect key="frame" x="0.0" y="407.66666666666674" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.3803921569" green="0.23529411759999999" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Show_Onboard_Data_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="s4u-ec-pIw"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="SHOW ONBOARDING SCREEN">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="showOnboardingScreenTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="5cB-qQ-jXU"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.77647058820000003" green="0.79215686269999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Onboard_Container_View"/>
+                                                        <constraints>
+                                                            <constraint firstItem="hd1-72-FmP" firstAttribute="top" secondItem="xUN-aW-7eT" secondAttribute="top" constant="20" id="Fx8-3I-5Bq"/>
+                                                            <constraint firstAttribute="bottom" secondItem="hd1-72-FmP" secondAttribute="bottom" constant="20" id="i2k-hS-nSF"/>
+                                                            <constraint firstAttribute="trailing" secondItem="hd1-72-FmP" secondAttribute="trailing" constant="20" id="j52-FB-HQ9"/>
+                                                            <constraint firstItem="hd1-72-FmP" firstAttribute="leading" secondItem="xUN-aW-7eT" secondAttribute="leading" constant="20" id="yI0-vZ-TCM"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19g-d5-O7u">
+                                                        <rect key="frame" x="0.0" y="1673" width="393" height="270"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gZd-tC-GAk">
+                                                                <rect key="frame" x="20" y="20" width="353" height="230"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carousal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="820-Eq-kUK">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="50"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Carousel_Title_Label"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVq-AQ-L7u">
+                                                                        <rect key="frame" x="0.0" y="65" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.4039215686" green="0.67450980390000004" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS__Fetch_Carousel_Data_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="cmb-zd-ShN"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="FETCH CAROUSEL DATA">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="fetchCarousalDataTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="SHV-YX-CFW"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLt-1f-I0g">
+                                                                        <rect key="frame" x="0.0" y="125" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.4039215686" green="0.67450980390000004" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Show_Carousal_Data_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="0Q9-CU-UM3"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="SHOW CAROUSEL DATA">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="showCarousalViewTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="Ckv-7U-PLL"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mij-Lq-FBo">
+                                                                        <rect key="frame" x="0.0" y="185" width="353" height="45"/>
+                                                                        <color key="backgroundColor" red="0.4039215686" green="0.67450980390000004" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Show_Carousal_Data_Button"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="45" id="5mE-gM-T02"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="11"/>
+                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                        <state key="normal" title="DELETE ALL CAROUSEL DATA">
+                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="deleteAllCarousalViewTapped:" destination="Vrc-Zl-FLJ" eventType="touchUpInside" id="wWt-FW-e3K"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.80784313730000001" green="0.8980392157" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Carousal_Container_View"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="gZd-tC-GAk" secondAttribute="bottom" constant="20" id="JjV-JW-7ZI"/>
+                                                            <constraint firstItem="gZd-tC-GAk" firstAttribute="top" secondItem="19g-d5-O7u" secondAttribute="top" constant="20" id="KCN-mk-FIX"/>
+                                                            <constraint firstAttribute="trailing" secondItem="gZd-tC-GAk" secondAttribute="trailing" constant="20" id="TiF-VE-Ufb"/>
+                                                            <constraint firstItem="gZd-tC-GAk" firstAttribute="leading" secondItem="19g-d5-O7u" secondAttribute="leading" constant="20" id="cFe-9n-Lw6"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="wK2-wO-Jub" secondAttribute="bottom" id="D2k-Rq-UF5"/>
+                                            <constraint firstItem="wK2-wO-Jub" firstAttribute="top" secondItem="NQG-7C-Z6X" secondAttribute="top" id="GjD-Be-N3b"/>
+                                            <constraint firstAttribute="trailing" secondItem="wK2-wO-Jub" secondAttribute="trailing" id="aoD-me-yec"/>
+                                            <constraint firstItem="wK2-wO-Jub" firstAttribute="leading" secondItem="NQG-7C-Z6X" secondAttribute="leading" id="m1Q-EG-Jjh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="NQG-7C-Z6X" firstAttribute="bottom" secondItem="uHh-FO-xoJ" secondAttribute="bottom" id="30x-bH-Ojw"/>
+                                    <constraint firstItem="NQG-7C-Z6X" firstAttribute="width" secondItem="Cvz-Jy-gGf" secondAttribute="width" id="J4o-2N-z0a"/>
+                                    <constraint firstItem="NQG-7C-Z6X" firstAttribute="trailing" secondItem="uHh-FO-xoJ" secondAttribute="trailing" id="OaR-Cr-nmk"/>
+                                    <constraint firstItem="NQG-7C-Z6X" firstAttribute="leading" secondItem="uHh-FO-xoJ" secondAttribute="leading" id="tcj-bh-HHq"/>
+                                    <constraint firstItem="NQG-7C-Z6X" firstAttribute="top" secondItem="uHh-FO-xoJ" secondAttribute="top" id="wC0-nc-PJg"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="uHh-FO-xoJ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Cvz-Jy-gGf"/>
+                            </scrollView>
+                            <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kqk-1Q-08t">
+                                <rect key="frame" x="161.66666666666666" y="391" width="70" height="70"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Nm7-kE-gqm">
+                                        <rect key="frame" x="20" y="20" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="9df-lI-KP4"/>
+                                            <constraint firstAttribute="height" constant="30" id="hgj-me-Uvf"/>
+                                        </constraints>
+                                        <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Nm7-kE-gqm" firstAttribute="leading" secondItem="kqk-1Q-08t" secondAttribute="leading" constant="20" id="DSa-2V-gAD"/>
+                                    <constraint firstItem="Nm7-kE-gqm" firstAttribute="top" secondItem="kqk-1Q-08t" secondAttribute="top" constant="20" id="FLI-Jf-ljI"/>
+                                    <constraint firstAttribute="bottom" secondItem="Nm7-kE-gqm" secondAttribute="bottom" constant="20" id="Kro-UV-SU4"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nm7-kE-gqm" secondAttribute="trailing" constant="20" id="oEl-h0-VrL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AZg-zh-20M"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TKD-1k-tjM" firstAttribute="top" secondItem="fzX-Vk-CuV" secondAttribute="top" id="1f7-gc-9MQ"/>
+                            <constraint firstItem="kqk-1Q-08t" firstAttribute="centerX" secondItem="fzX-Vk-CuV" secondAttribute="centerX" id="5wG-fY-PPF"/>
+                            <constraint firstAttribute="bottom" secondItem="YXy-rY-RS8" secondAttribute="bottom" id="BFW-de-gJS"/>
+                            <constraint firstItem="kqk-1Q-08t" firstAttribute="centerY" secondItem="fzX-Vk-CuV" secondAttribute="centerY" id="ID9-yt-8UX"/>
+                            <constraint firstItem="YXy-rY-RS8" firstAttribute="top" secondItem="AZg-zh-20M" secondAttribute="top" id="dor-x9-duI"/>
+                            <constraint firstItem="TKD-1k-tjM" firstAttribute="leading" secondItem="fzX-Vk-CuV" secondAttribute="leading" id="jOL-zv-hLH"/>
+                            <constraint firstAttribute="trailing" secondItem="TKD-1k-tjM" secondAttribute="trailing" id="psx-RQ-jlI"/>
+                            <constraint firstItem="YXy-rY-RS8" firstAttribute="leading" secondItem="fzX-Vk-CuV" secondAttribute="leading" id="q7J-uf-bVA"/>
+                            <constraint firstAttribute="trailing" secondItem="YXy-rY-RS8" secondAttribute="trailing" id="riu-OO-OOY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fj4-ce-dcg">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="c8c-ae-9En">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="nextTapped:" destination="Vrc-Zl-FLJ" id="0vT-PY-fla"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicatorBGView" destination="kqk-1Q-08t" id="RhQ-6d-JNn"/>
+                        <outlet property="activityIndicatorView" destination="Nm7-kE-gqm" id="rHZ-k1-dfe"/>
+                        <outlet property="apnsTokenLabel" destination="a8Y-aw-lKb" id="czP-yq-coY"/>
+                        <outlet property="eventNameTextField" destination="ciT-BH-ueP" id="ZCT-Eo-wRB"/>
+                        <outlet property="eventParamTextField" destination="6h9-ot-4e3" id="Tyi-0o-WaT"/>
+                        <outlet property="fcmTokenLabel" destination="4h3-Ap-sgE" id="IkW-l0-9Ip"/>
+                        <outlet property="updateButton" destination="BDf-nZ-Cg1" id="DPh-sY-1Ma"/>
+                        <outlet property="userIdTextField" destination="JZo-aH-C9W" id="afV-IV-xBP"/>
+                        <segue destination="5NO-tJ-Xbm" kind="presentation" identifier="details" id="x3T-Ar-RrA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tSj-Or-Ahj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="852.67175572519079" y="-11.267605633802818"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="oSA-Ec-MTh">
+            <objects>
+                <viewController storyboardIdentifier="UMDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5NO-tJ-Xbm" customClass="UMDetailsViewController" customModule="MokSDKExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mPz-AE-efa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a99-Gf-HxS">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BE-nQ-ngy">
+                                        <rect key="frame" x="20" y="10" width="353" height="822"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Test_Label"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <accessibility key="accessibilityConfiguration" label="PL_iOS_popup"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="4BE-nQ-ngy" secondAttribute="trailing" constant="20" id="4yp-5a-QbO"/>
+                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="centerY" secondItem="a99-Gf-HxS" secondAttribute="centerY" id="70H-wW-8tM"/>
+                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="centerX" secondItem="a99-Gf-HxS" secondAttribute="centerX" id="Ltl-N1-adk"/>
+                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="leading" secondItem="a99-Gf-HxS" secondAttribute="leading" constant="20" id="pLs-e4-6yY"/>
+                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="top" secondItem="a99-Gf-HxS" secondAttribute="top" constant="10" id="vlT-Rb-fbc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ub4-NN-kNG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a99-Gf-HxS" firstAttribute="top" secondItem="ub4-NN-kNG" secondAttribute="top" id="4OZ-gS-V0R"/>
+                            <constraint firstItem="ub4-NN-kNG" firstAttribute="trailing" secondItem="a99-Gf-HxS" secondAttribute="trailing" id="DRo-7n-cws"/>
+                            <constraint firstItem="ub4-NN-kNG" firstAttribute="bottom" secondItem="a99-Gf-HxS" secondAttribute="bottom" id="mfc-j4-Kut"/>
+                            <constraint firstItem="a99-Gf-HxS" firstAttribute="leading" secondItem="ub4-NN-kNG" secondAttribute="leading" id="qGJ-DQ-hhZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cye-2E-OjE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1539" y="-15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="unnamed" width="30" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

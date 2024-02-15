@@ -1,0 +1,11 @@
+framework module Unomok {
+  umbrella header "Unomok.h"
+  export *
+
+  module * { export * }
+}
+
+module Unomok.Swift {
+  header "Unomok-Swift.h"
+  requires objc
+}

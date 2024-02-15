@@ -1,0 +1,196 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Unomok
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import CallKit
+import DeveloperToolsSupport
+import Foundation
+import SQLite3
+import Security
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+@_exported import Unomok
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct MokOnboardingResponse : Swift.Codable {
+  public let message: Swift.String?
+  public let responseData: [Unomok.MokOnboardingResponseData]?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokOnboardingResponseData : Swift.Codable {
+  public let onboardingId: Swift.String?
+  public let orgId: Swift.String?
+  public let clientId: Swift.String?
+  public let isFullscreen: Swift.Bool?
+  public let content: [Unomok.MokContent]?
+  public let createdAt: Swift.String?
+  public let updatedAt: Swift.String?
+  public let comment: Swift.String?
+  public let isActive: Swift.Bool?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokContent : Swift.Codable {
+  public let id: Swift.Int?
+  public let type: Swift.String?
+  public let url: Swift.String?
+  public let html: Unomok.MokHtmlContent?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokHtmlContent : Swift.Codable {
+  public let template: Swift.String?
+  public let templateCode: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokSDK {
+  public init(isProductionEnv: Swift.Bool, sdkReadKey: Swift.String, sdkWriteKey: Swift.String)
+  public static func updateUser(userID: Swift.String, withParameters parameters: [Swift.String : Any], completion: @escaping (_ sucessMessage: Swift.String?, _ error: (any Swift.Error)?) -> Swift.Void)
+  public static func logEvent(userID: Swift.String, eventName: Swift.String, parameters: [Swift.String : Any], completion: @escaping (_ sucessMessage: Swift.String?, _ error: (any Swift.Error)?) -> Swift.Void)
+  public static func registerDeviceTokenForRemoteNotification(deviceToken: Foundation.Data?, completion: @escaping (_ token: Swift.String?, _ successMessage: Swift.String?, _ errorMessage: Swift.String?) -> Swift.Void)
+  public static func registerForRemoteNotification(type: Unomok.PushServiceType = .apns)
+  public static func fetchInappNotifications(userID: Swift.String, completion: @escaping (Unomok.MokInAppMessage?, (any Swift.Error)?) -> Swift.Void)
+  public static func loadAllPendingPopups()
+  public static func removeAllInappData()
+  public static func fetchAllOnboardingScreenContents(completion: @escaping ([Unomok.MokOnboardingResponseData]?, (any Swift.Error)?) -> Swift.Void)
+  public static func showOnboardingScreen()
+  public static func fetchAllCarouselContents(completion: @escaping ([Unomok.MokCarouselResponseData], (any Swift.Error)?) -> Swift.Void)
+  public static func fetchAllCarouselContentsFromLocalStorage(completion: @escaping ([(divId: Swift.String, content: [Unomok.MokCarouselContent], divDetails: Unomok.MokDivIdIos)]) -> Swift.Void)
+  public static func showCarouselViews(completion: @escaping () -> Swift.Void)
+  public static func removeAllCarouselData(completion: @escaping () -> Swift.Void)
+  public static func handlePushNotification(userInfo: [Swift.AnyHashable : Any])
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MokVideoPlayerPipView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public init(videoURL: Foundation.URL, frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MokBaseViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MokSpotlightView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+public struct MokInAppMessage : Swift.Codable {
+  public let inAppMessageData: [Unomok.MokInAppMessageData]?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokInAppMessageData : Swift.Codable {
+  public let inAppId: Swift.String?
+  public let orgId: Swift.String?
+  public let clientId: Swift.String?
+  public var jsonData: Unomok.MokJsonData?
+  public let comment: Swift.String?
+  public let isActive: Swift.Bool?
+  public let updatedBy: Swift.String?
+  public let createdBy: Swift.String?
+  public let createdAt: Swift.String?
+  public let updatedAt: Swift.String?
+  public let read: Swift.Bool?
+  public let type: Swift.String?
+  public let maxRead: Swift.Int?
+  public let currentRead: Swift.Int?
+  public var divIdiOSScreenName: Swift.String?
+  public var divIdiOS: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public init(inAppId: Swift.String, orgId: Swift.String, clientId: Swift.String, jsonData: Unomok.MokJsonData?, comment: Swift.String, isActive: Swift.Bool, updatedBy: Swift.String, createdBy: Swift.String, createdAt: Swift.String, updatedAt: Swift.String, read: Swift.Bool, type: Swift.String, maxRead: Swift.Int, currentRead: Swift.Int, divIdiOSScreenName: Swift.String, divIdiOS: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokJsonData : Swift.Codable {
+  public var popupConfigs: Unomok.MokPopupConfigs?
+  public let inAppClickAction: Swift.String?
+  public let text: Swift.String?
+  public var title: Swift.String?
+  public let image: Swift.String?
+  public let icon: Swift.String?
+  public let category: Swift.String?
+  public let html: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokPopupConfigs : Swift.Codable {
+  public var sound: Swift.String?
+  public let templateType: Swift.String?
+  public let templateSize: Swift.String?
+  public let numberOfTimesView: Swift.String?
+  public let numberOfSecondsView: Unomok.MokQuantumValue?
+  public let webUrl: Swift.String?
+  public let videoUrl: Swift.String?
+  public let maxRead: Swift.Int?
+  public let pushType: Swift.String?
+  public let getInAppMsgData: Swift.Bool?
+  public let startTime: Swift.String?
+  public let endTime: Swift.String?
+  public let divName: Swift.String?
+  public let buttonName: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension UIKit.UIButton {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func sendAction(_ action: ObjectiveC.Selector, to target: Any?, for event: UIKit.UIEvent?)
+}
+public struct MokCarouselResponse : Swift.Codable {
+  public let message: Swift.String?
+  public let mokCarouselResponsedata: [Unomok.MokCarouselResponseData]?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokCarouselResponseData : Swift.Codable {
+  public let carouselId: Swift.String?
+  public let orgId: Swift.String?
+  public let createdAt: Swift.String?
+  public let updatedAt: Swift.String?
+  public let clientId: Swift.String?
+  public let divId: Swift.String?
+  public let carouselContent: [Unomok.MokCarouselContent]?
+  public let divIdIos: Unomok.MokDivIdIos?
+  public init(from decoder: any Swift.Decoder) throws
+  public init(carouselId: Swift.String, orgId: Swift.String, createdAt: Swift.String, updatedAt: Swift.String, clientId: Swift.String, divId: Swift.String, carouselContent: [Unomok.MokCarouselContent], divIdIos: Unomok.MokDivIdIos?)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokCarouselContent : Swift.Codable {
+  public let id: Swift.Int?
+  public let type: Swift.String?
+  public let url: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public init(id: Swift.Int, type: Swift.String, url: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct MokDivIdIos : Swift.Codable {
+  public let screenName: Swift.String?
+  public let divIdentifier: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public init(screenName: Swift.String, identifier: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum PushServiceType {
+  case apns
+  case fcm
+  public static func == (a: Unomok.PushServiceType, b: Unomok.PushServiceType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum MokQuantumValue : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  case int(Swift.Int), string(Swift.String), bool(Swift.Bool), double(Swift.Double), float(Swift.Float)
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Unomok.PushServiceType : Swift.Equatable {}
+extension Unomok.PushServiceType : Swift.Hashable {}
