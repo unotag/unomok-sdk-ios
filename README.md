@@ -2,7 +2,10 @@
 
  [![5.0](https://img.shields.io/badge/swift-5.0-orange.svg)](https://swift.org/)
  [![iOS](https://img.shields.io/badge/Platform-iOS%20-lightgrey.svg)](https://developer.apple.com/)
- [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
+ [![CocoaPods](https://img.shields.io/badge/Cocoapods-Compatible-brightgreen.svg)](https://cocoapods.org/pods/Unomok)
+  [![Swift Package Manager Compatible](https://img.shields.io/badge/Swift_Package_Manager-Compatible-brightgreen.svg)](https://github.com/unotag/unomok-sdk-ios/tree/1.0.3?tab=readme-ov-file#swift-package-manager)
+  [![Carthage Compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg)](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#carthage)
+ [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/unotag/unomok-sdk-ios/blob/main/LICENSE.txt)
 
 Welcome to the integration guide for Mok SDK. This document provides step-by-step instructions on integrating Mok SDK into Xcode projects.
 Mok is a customer engagement platform for websites and mobile apps. It offers an integrated suite for simplifying notifications for engineering and product management. To use Mok SDK, we need to initialize it with the project environment, read key, and write key. This initialization process is crucial for authorization and ensuring that the SDK functions correctly within the project.
@@ -37,31 +40,45 @@ Mok is a customer engagement platform for websites and mobile apps. It offers an
 
 CocoaPods is a dependency manager for Cocoa projects. To incorporate Mok into the Xcode project using CocoaPods, include the specification in your Podfile. Please refer to their official website for detailed instructions on usage and installation.
 To integrate Mok SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
-```
+```ruby
 pod 'Unomok'
 ```
+
 ### Swift Package Manager
 
-The Swift Package Manager is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
-[incomplete: need to distribute the SDK via SPM]
+The [Swift Package Manager](https://www.swift.org/documentation/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+
+Here is the steps for adding Unomok to your Xcode project:
+1. In Xcode, with your app project open, navigate to `File > Add Packages`.
+2. When prompted, When prompted, add the Unomok SDK repository using the Swift Package Manager URL::
+```ruby
+https://github.com/unotag/unomok-sdk-ios
+```
+3. Click the `Add Packages` button.
+
+Swift Package Manager will fetch and integrate the Unomok SDK into your Xcode project. You can now start using the Unomok SDK in your project.
 
 ### Carthage
 
-Carthage is a decentralized iOS dependency manager using Git, emphasizing dynamic frameworks without the lock file and providing manual integration into Xcode projects.
-[incomplete: need to distribute the SDK via Carthage]
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized iOS dependency manager using Git, emphasizing dynamic frameworks without the lock file and providing manual integration into Xcode projects. To integrate Unomok into your Xcode project using Carthage, specify it in your Cartfile:
+
+```ruby
+github "unotag/unomok-sdk-ios"
+
+```
 
 ### Manually
 
 If you choose not to use the above mentioned dependency managers, you have another option - manually integrate the Mok SDK into your project.
 
-1. Download the latest version of Mok XCFramework (include a link to the xcframework)
+1. Download this Example project. Navigate to Unomok.xcframework
 2. Drag and Drop the XCFramework file into your Xcode project's file navigator.
-3. Embed & Sign the XCFramework:
+3. `Embed & Sign` the XCFramework:
     1. Select your app's target in Xcode.
     2. Navigate to the General tab.
-    3. In the Frameworks, Libraries, and Embedded Content section, choose Embed & Sign for the Unomok.xcframework.
+    3. In the `Frameworks, Libraries, and Embedded Content section`, choose Embed & Sign for the Unomok.xcframework.
 
-    ![Alt text](https://github.com/unotag/unomok-sdk-ios/blob/main/Screenshots/1.jpg)
+    ![Alt text](https://raw.githubusercontent.com/unotag/unomok-sdk-ios/1.0.3/Screenshots/1.jpg)
 
 Your manual integration is now complete. Ensure that XCFramework is included in the project and embedded in the app target.
 
@@ -215,18 +232,19 @@ If you haven't already, [add Firebase to your Apple project](https://firebase.go
 
 Upload your APNs authentication key to Firebase. If you don't already have an APNs authentication key, make sure to create one in the [Apple Developer Portal](https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Faccount%2F&rv=1).
 
-    1. Open Firebase Console. Navigate to your project. Inside your project, select the settings icon, select Project Settings, and then select the Cloud Messaging tab.
-    2. In APNs Authentication Key section under Apple app configuration, click the Upload button.
-    3. Browse to the location where you saved your p8 key, select it, and click Open. Add the key ID and Team ID for the key (available in the Apple Developer Portal) and click Upload.         
+- Open Firebase Console. Navigate to your project. Inside your project, select the settings icon, select Project Settings, and then select the Cloud Messaging tab.
+- In APNs Authentication Key section under Apple app configuration, click the Upload button.
+- Browse to the location where you saved your p8 key, select it, and click Open. Add the key ID and Team ID for the key (available in the Apple Developer Portal) and click Upload.      
+       
 #### APNs
 
-For APNs, you have to upload the APNs authentication key to [Mok Dashboard](https://dev.mok.one/).
+For APNs, you have to upload the APNs authentication key to [Mok Dashboard](https://live.mok.one/).
  
 1. Go to the Channels tab under the Notifications section.
 2. Select option Apple and add your Apple Credentials there. 
 3. You have to add the Credential name, p8 key, Key ID, Team ID and Topic there. Topic is the same as the bundle identifier.
 
- ![Alt text](https://github.com/unotag/unomok-sdk-ios/blob/main/Screenshots/2.jpg)
+ ![Alt text](https://raw.githubusercontent.com/unotag/unomok-sdk-ios/1.0.3/Screenshots/2.jpg)
  
  ### Automated Identification
  

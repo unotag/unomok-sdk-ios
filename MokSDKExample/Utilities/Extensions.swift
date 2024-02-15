@@ -3,7 +3,7 @@
 //  MokSDKExample
 //
 //  Created by Bindu R S on 27/11/23.
-//  Copyright © 2023 Logidots Technologies Pvt Ltd. All rights reserved.
+//  Copyright © 2023 Unomok Limited. All rights reserved.
 //
 
 import UIKit

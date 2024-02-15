@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "Unomok"
-spec.version      = "1.0.2"
+spec.version      = "1.0.3"
 spec.summary      = "Mok is a customer engagement platform for websites and mobile apps."
 spec.description  = <<-DESC
 Mok is a customer engagement platform for websites and mobile apps. It offers an integrated suite for simplifying notifications for engineering and product management.
@@ -14,7 +14,7 @@ spec.author             = { "Unomok Limited" => "support@unomok.com" }
 spec.platform     = :ios, "16.0"
 spec.source       = { :git => "https://github.com/unotag/unomok-sdk-ios.git", :tag => "#{spec.version}" }
 spec.source_files = 'MokSDKExample/Unomok.xcframework/**/*.{swift,h,m}'
-# spec.vendored_frameworks = 'Unomok.xcframework'
+spec.vendored_frameworks = 'MokSDKExample/Unomok.xcframework'
 
 # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
 # spec.exclude_files = "Classes/Exclude"
