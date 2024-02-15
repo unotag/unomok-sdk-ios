@@ -36,8 +36,10 @@ Mok is a customer engagement platform for websites and mobile apps. It offers an
 ### Cocoapods
 
 CocoaPods is a dependency manager for Cocoa projects. To incorporate Mok into the Xcode project using CocoaPods, include the specification in your Podfile. Please refer to their official website for detailed instructions on usage and installation.
-[incomplete: need to distribute the SDK via cocoapods]
-
+To integrate Mok SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
+```
+pod 'Unomok'
+```
 ### Swift Package Manager
 
 The Swift Package Manager is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
@@ -59,7 +61,7 @@ If you choose not to use the above mentioned dependency managers, you have anoth
     2. Navigate to the General tab.
     3. In the Frameworks, Libraries, and Embedded Content section, choose Embed & Sign for the Unomok.xcframework.
 
-    ![Alt text](./Screenshots/1.jpg)
+    ![Alt text](https://github.com/unotag/unomok-sdk-ios/blob/main/Screenshots/1.jpg)
 
 Your manual integration is now complete. Ensure that XCFramework is included in the project and embedded in the app target.
 
@@ -224,7 +226,7 @@ For APNs, you have to upload the APNs authentication key to [Mok Dashboard](http
 2. Select option Apple and add your Apple Credentials there. 
 3. You have to add the Credential name, p8 key, Key ID, Team ID and Topic there. Topic is the same as the bundle identifier.
 
- ![Alt text](./Screenshots/2.jpg)
+ ![Alt text](https://github.com/unotag/unomok-sdk-ios/blob/main/Screenshots/2.jpg)
  
  ### Automated Identification
  
