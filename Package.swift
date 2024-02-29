@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Unomok",
-            url: "https://github.com/unotag/unomok-sdk-ios/releases/download/1.0.3/Unomok.xcframework.zip", 
+            url: "https://github.com/unotag/unomok-sdk-ios/releases/download/1.0.5/Unomok.xcframework.zip", 
             checksum: "d186d36b0544637b28a9918e920a0cdfb671853eb4afb55087663e5b054e2628"
         ),
     ]
