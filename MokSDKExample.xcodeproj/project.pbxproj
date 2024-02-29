@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5205331A2B9081F800D16A26 /* Unomok.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520533182B905F5A00D16A26 /* Unomok.xcframework */; };
+		5205331B2B9081F800D16A26 /* Unomok.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 520533182B905F5A00D16A26 /* Unomok.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		524447B52B7A24A900CBA2AB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 524447B42B7A24A900CBA2AB /* SDWebImage */; };
 		524447B82B7A253900CBA2AB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 524447B72B7A253900CBA2AB /* FirebaseAnalytics */; };
 		524447BA2B7A253900CBA2AB /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 524447B92B7A253900CBA2AB /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -30,7 +32,6 @@
 		524447DE2B7A253900CBA2AB /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 524447DD2B7A253900CBA2AB /* FirebaseInstallations */; };
 		524447E02B7A253900CBA2AB /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 524447DF2B7A253900CBA2AB /* FirebaseMLModelDownloader */; };
 		524447E22B7A253900CBA2AB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 524447E12B7A253900CBA2AB /* FirebaseMessaging */; };
-		525737692B3B53F800C10C39 /* UMDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525737682B3B53F800C10C39 /* UMDetailsViewController.swift */; };
 		5286879B2B0F7CDF00BE3F1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286879A2B0F7CDF00BE3F1B /* AppDelegate.swift */; };
 		5286879D2B0F7CDF00BE3F1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286879C2B0F7CDF00BE3F1B /* SceneDelegate.swift */; };
 		528687A22B0F7CDF00BE3F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528687A02B0F7CDF00BE3F1B /* Main.storyboard */; };
@@ -39,9 +40,8 @@
 		528687B72B0F7DCE00BE3F1B /* UMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528687B22B0F7DCE00BE3F1B /* UMHomeViewController.swift */; };
 		528687B82B0F7DCE00BE3F1B /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528687B42B0F7DCE00BE3F1B /* DetailsTableViewCell.swift */; };
 		528687B92B0F7DCE00BE3F1B /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528687B52B0F7DCE00BE3F1B /* DetailsCollectionViewCell.swift */; };
+		529890032B8498A800287A98 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 529890022B8498A800287A98 /* Starscream */; };
 		52A3EEFE2B22FC5F0093F205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52A3EEFD2B22FC5F0093F205 /* GoogleService-Info.plist */; };
-		52C59B532B7C8B1200BED7BD /* Unomok.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C59B512B7C8B0200BED7BD /* Unomok.xcframework */; };
-		52C59B542B7C8B1200BED7BD /* Unomok.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52C59B512B7C8B0200BED7BD /* Unomok.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52C7CAAD2B144BD1008B582A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7CAAC2B144BD1008B582A /* Extensions.swift */; };
 		52C7CAB02B14511D008B582A /* UMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7CAAF2B14511D008B582A /* UMTextField.swift */; };
 		52C7CAB92B145B23008B582A /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7CAB82B145B23008B582A /* StringConstants.swift */; };
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				52C59B542B7C8B1200BED7BD /* Unomok.xcframework in Embed Frameworks */,
+				5205331B2B9081F800D16A26 /* Unomok.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		525737682B3B53F800C10C39 /* UMDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMDetailsViewController.swift; sourceTree = "<group>"; };
+		520533182B905F5A00D16A26 /* Unomok.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Unomok.xcframework; sourceTree = "<group>"; };
 		528687972B0F7CDF00BE3F1B /* MokSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MokSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5286879A2B0F7CDF00BE3F1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5286879C2B0F7CDF00BE3F1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +76,6 @@
 		528687B52B0F7DCE00BE3F1B /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		52869A5A2B15FD0600D27CE3 /* MokSDKExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MokSDKExample.entitlements; sourceTree = "<group>"; };
 		52A3EEFD2B22FC5F0093F205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		52C59B512B7C8B0200BED7BD /* Unomok.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Unomok.xcframework; sourceTree = "<group>"; };
 		52C7CAAC2B144BD1008B582A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52C7CAAF2B14511D008B582A /* UMTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMTextField.swift; sourceTree = "<group>"; };
 		52C7CAB82B145B23008B582A /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 			files = (
 				524447E22B7A253900CBA2AB /* FirebaseMessaging in Frameworks */,
 				524447B52B7A24A900CBA2AB /* SDWebImage in Frameworks */,
+				5205331A2B9081F800D16A26 /* Unomok.xcframework in Frameworks */,
 				524447D42B7A253900CBA2AB /* FirebaseFirestoreSwift in Frameworks */,
 				524447BE2B7A253900CBA2AB /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				524447D62B7A253900CBA2AB /* FirebaseFunctions in Frameworks */,
@@ -99,7 +99,7 @@
 				524447CE2B7A253900CBA2AB /* FirebaseDynamicLinks in Frameworks */,
 				524447C82B7A253900CBA2AB /* FirebaseCrashlytics in Frameworks */,
 				524447E02B7A253900CBA2AB /* FirebaseMLModelDownloader in Frameworks */,
-				52C59B532B7C8B1200BED7BD /* Unomok.xcframework in Frameworks */,
+				529890032B8498A800287A98 /* Starscream in Frameworks */,
 				524447CC2B7A253900CBA2AB /* FirebaseDatabaseSwift in Frameworks */,
 				524447D02B7A253900CBA2AB /* FirebaseFirestore in Frameworks */,
 				524447DE2B7A253900CBA2AB /* FirebaseInstallations in Frameworks */,
@@ -119,12 +119,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525E06812B8E0CE30063A1F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5286878E2B0F7CDF00BE3F1B = {
 			isa = PBXGroup;
 			children = (
 				52D6378F2B7DD9B700FC845C /* README.md */,
 				528687992B0F7CDF00BE3F1B /* MokSDKExample */,
 				528687982B0F7CDF00BE3F1B /* Products */,
+				525E06812B8E0CE30063A1F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,7 +147,7 @@
 		528687992B0F7CDF00BE3F1B /* MokSDKExample */ = {
 			isa = PBXGroup;
 			children = (
-				52C59B512B7C8B0200BED7BD /* Unomok.xcframework */,
+				520533182B905F5A00D16A26 /* Unomok.xcframework */,
 				52869A5A2B15FD0600D27CE3 /* MokSDKExample.entitlements */,
 				52869A572B15FCAC00D27CE3 /* Resources */,
 				52C7CAAE2B145103008B582A /* Custom Controls */,
@@ -167,7 +175,6 @@
 			children = (
 				528687B32B0F7DCE00BE3F1B /* Cells */,
 				528687B22B0F7DCE00BE3F1B /* UMHomeViewController.swift */,
-				525737682B3B53F800C10C39 /* UMDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +264,7 @@
 				524447DD2B7A253900CBA2AB /* FirebaseInstallations */,
 				524447DF2B7A253900CBA2AB /* FirebaseMLModelDownloader */,
 				524447E12B7A253900CBA2AB /* FirebaseMessaging */,
+				529890022B8498A800287A98 /* Starscream */,
 			);
 			productName = MokSDKExample;
 			productReference = 528687972B0F7CDF00BE3F1B /* MokSDKExample.app */;
@@ -291,6 +299,7 @@
 			packageReferences = (
 				524447B32B7A24A900CBA2AB /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				524447B62B7A253900CBA2AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				529890012B8498A800287A98 /* XCRemoteSwiftPackageReference "Starscream" */,
 			);
 			productRefGroup = 528687982B0F7CDF00BE3F1B /* Products */;
 			projectDirPath = "";
@@ -329,7 +338,6 @@
 				528687B72B0F7DCE00BE3F1B /* UMHomeViewController.swift in Sources */,
 				528687B92B0F7DCE00BE3F1B /* DetailsCollectionViewCell.swift in Sources */,
 				52C7CAEA2B14F690008B582A /* Constants.swift in Sources */,
-				525737692B3B53F800C10C39 /* UMDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +494,8 @@
 				DEVELOPMENT_TEAM = Q9PNZ2MU3Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MokSDKExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MokSDKExample would like access to the camera for video calling.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MokSDKExample would like access to the microphone to allow recording voice messages";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -522,6 +532,8 @@
 				DEVELOPMENT_TEAM = Q9PNZ2MU3Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MokSDKExample/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MokSDKExample would like access to the camera for video calling.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MokSDKExample would like access to the microphone to allow recording voice messages";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -584,6 +596,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.21.0;
+			};
+		};
+		529890012B8498A800287A98 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.6;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -703,6 +723,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 524447B62B7A253900CBA2AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
+		};
+		529890022B8498A800287A98 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 529890012B8498A800287A98 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

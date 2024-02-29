@@ -14,19 +14,12 @@ import UserNotifications
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    let id = "MOASDK_1001"
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let _ = MokSDK(
             isProductionEnv: false,
-            sdkReadKey: "YOUR_MOK_SDK_READ_KEY",
-            sdkWriteKey: "YOUR_MOK_SDK_WRITE_KEY")
-        MokSDK.updateUser(
-            userID: id,
-            withParameters: [
-                "name": id+"_iOS_SDK"
-            ]) { sucessMessage, error in
-                
-            }
+            sdkReadKey: "YOUR_MOK_READ_KEY",
+            sdkWriteKey: "YOUR_MOK_WRITE_KEY")
+
         UNUserNotificationCenter.current().delegate = self
         
         MokSDK.registerForRemoteNotification(type: .fcm)
@@ -35,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+       
         apnsToken = deviceToken
         MokSDK.registerDeviceTokenForRemoteNotification(deviceToken: deviceToken) { token, message, errorMessage  in
             print("=========== Register For Remote Notification With Device Token ============")

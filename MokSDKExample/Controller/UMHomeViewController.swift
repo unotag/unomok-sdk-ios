@@ -95,7 +95,20 @@ class UMHomeViewController: MokBaseViewController {
         ]
         MokSDK.updateUser(userID: id, withParameters: params) { [self] (successMessage, error) in
             updateButton.configuration?.showsActivityIndicator = false
-            hideLoading()
+            MokSDK.registerDeviceTokenForRemoteNotification(deviceToken: apnsToken) { [self] token, message, errorMessage  in
+                print("=========== Register For Remote Notification With Device Token ============")
+                if let token {
+                    print("FCM token : \(token)")
+                }
+                
+                if let message {
+                    print(message)
+                }
+                if let errorMessage {
+                    print(errorMessage)
+                }
+                hideLoading()
+            }
         }
     }
     
@@ -263,9 +276,6 @@ class UMHomeViewController: MokBaseViewController {
         MokSDK.removeAllCarouselData { [self] in
             hideLoading()
         }
-    }
-    @IBAction func nextTapped(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "details", sender: self)
     }
 }
 

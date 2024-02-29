@@ -7,49 +7,206 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E6464A1E-F0FE-40AE-AD7E-A42F69E84067"
+            uuid = "D0AFAD8D-ABC9-4545-A0A6-797983264576"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MokSDKExample/AppDelegate and SceneDelegate/AppDelegate.swift"
+            filePath = "MokSDKExample/MokWebSocketForCallManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
+            startingLineNumber = "276"
+            endingLineNumber = "276">
+            <Locations>
+               <Location
+                  uuid = "D0AFAD8D-ABC9-4545-A0A6-797983264576 - 114c29c95ce0e45f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MokSDKExample.MokWebSocketForCallManager.audioPlayerDidFinishPlaying(_: __C.AVAudioPlayer, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "MokSDKExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bindurs/Documents/Office%20works/SDKs/MokSDKExample/MokSDKExample/MokWebSocketForCallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "273"
+                  endingLineNumber = "273"
+                  offsetFromSymbolStart = "2584">
+               </Location>
+               <Location
+                  uuid = "D0AFAD8D-ABC9-4545-A0A6-797983264576 - 114c29c95ce0e45f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MokSDKExample.MokWebSocketForCallManager.audioPlayerDidFinishPlaying(_: __C.AVAudioPlayer, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "MokSDKExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bindurs/Documents/Office%20works/SDKs/MokSDKExample/MokSDKExample/MokWebSocketForCallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "273"
+                  endingLineNumber = "273"
+                  offsetFromSymbolStart = "2560">
+               </Location>
+               <Location
+                  uuid = "D0AFAD8D-ABC9-4545-A0A6-797983264576 - 114c29c95ce0e5c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MokSDKExample.MokWebSocketForCallManager.audioPlayerDidFinishPlaying(_: __C.AVAudioPlayer, successfully: Swift.Bool) -&gt; ()"
+                  moduleName = "MokSDKExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bindurs/Documents/Office%20works/SDKs/MokSDKExample/MokSDKExample/MokWebSocketForCallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "276"
+                  endingLineNumber = "276"
+                  offsetFromSymbolStart = "2496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46C37CB5-9538-4733-9E67-8CFBB8F1D27E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MokSDKExample/MokWebSocketForCallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "processAudioData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46C37CB5-9538-4733-9E67-8CFBB8F1D27E - 34345d7b3faea892"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MokSDKExample.MokWebSocketForCallManager.processAudioData() -&gt; ()"
+                  moduleName = "MokSDKExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bindurs/Documents/Office%20works/SDKs/MokSDKExample/MokSDKExample/MokWebSocketForCallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "46C37CB5-9538-4733-9E67-8CFBB8F1D27E - 34345d7b3faea8b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MokSDKExample.MokWebSocketForCallManager.processAudioData() -&gt; ()"
+                  moduleName = "MokSDKExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bindurs/Documents/Office%20works/SDKs/MokSDKExample/MokSDKExample/MokWebSocketForCallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9ABB722F-F9D0-4F3A-82B2-646DD5460E72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MokSDKExample/MokWebSocketForCallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "playAudioData(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9ABB722F-F9D0-4F3A-82B2-646DD5460E72 - be25c6c28ff36a6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MokSDKExample.MokWebSocketForCallManager.playAudioData(data: Foundation.Data) -&gt; ()"
+                  moduleName = "MokSDKExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bindurs/Documents/Office%20works/SDKs/MokSDKExample/MokSDKExample/MokWebSocketForCallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "9ABB722F-F9D0-4F3A-82B2-646DD5460E72 - be25c6c28ff36a0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MokSDKExample.MokWebSocketForCallManager.playAudioData(data: Foundation.Data) -&gt; ()"
+                  moduleName = "MokSDKExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bindurs/Documents/Office%20works/SDKs/MokSDKExample/MokSDKExample/MokWebSocketForCallManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D75C1B5-0F79-4833-8C99-D906016F9976"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MokSDKExample/MokWebSocketForCallManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "provider(_:perform:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A1DC9F45-DA0D-4ADC-B768-D934F2186FA8"
+            uuid = "76C99D4A-9D56-451D-851A-AAEDB32213B4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MokSDKExample/AppDelegate and SceneDelegate/AppDelegate.swift"
+            filePath = "MokSDKExample/MokWebSocketForCallManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "audioPlayerDidFinishPlaying(_:successfully:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CEF162C0-6234-401E-8F31-1FFA3093F81C"
+            uuid = "A917B3F7-75E9-44FE-B2E9-02A9A47F19D5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MokSDKExample/AppDelegate and SceneDelegate/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "application(_:didReceiveRemoteNotification:fetchCompletionHandler:)"
-            landmarkType = "7">
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
