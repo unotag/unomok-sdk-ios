@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/Unomok-Swift.h</key>
 		<data>
-		r26It/M+OdTW+Xeih+AlVtqAIOs=
+		XY876Qh/CvAZPSi2OdAl3JImBD8=
 		</data>
 		<key>Headers/Unomok.h</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tYuejFm+CcWlTsVVYAPLK6He+pU=
+		th4iy8lFKoBSFy+/aPZJcVROxiY=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		o6YTLtoSWXBHuz56udR9BCGGmEQ=
+		LLB3TzgSTU3KbhDwtOxYViGDpFk=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gmYIrah2KaDJrZVt+/4RvUzZVC8=
+		r0ggw8BkvaXsxepd/Eq8WjOqhd4=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		o6YTLtoSWXBHuz56udR9BCGGmEQ=
+		LLB3TzgSTU3KbhDwtOxYViGDpFk=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Bbb4nITvwid+1Oda7cUx4rELFCU=
+		VOjBk8nzf58C+rD5TpFvw/yCbsw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Mok.storyboardc/x4R-0P-dBL-view-kqF-l0-smk.nib</key>
 		<data>
-		CmezX5YhqxhDWBQatBWmSCbfDVE=
+		XwaqQg0hPpbJrfbKY1odd64dfF0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fycq7lTsCDzpvVlLLO8IYFCFjSjvmy/SyjyPaPxCCqM=
+			QxdCFnchA9PdSouqCawZojfVgRP81t6oqb+J9BFpaIo=
 			</data>
 		</dict>
 		<key>Headers/Unomok.h</key>
@@ -144,35 +144,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ihxXRgBJQJ275RIjfV+k7/n7nfsD4PIA+c11FQi4Gjc=
+			QVnw1nyE9omB9nyKRBJPT1nDF493GBzSuF5XVvdwAXo=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gUID5vp7UPYS/9jjgF8WqncWpHrXoBmj7jGSoJNxCys=
+			dPhpYARa09Rv6lt3ZK51/HLF7xj2YVgl3g1xNzwQ0Ao=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m92fXEPH6wTki/qd1YRgBdoemVGHZ2jqSiEq+zdhcuw=
+			5OfpJekL5hBEgBg1Hgt7p+zSF/NbNTJr5Nk0QeOEGD8=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gUID5vp7UPYS/9jjgF8WqncWpHrXoBmj7jGSoJNxCys=
+			dPhpYARa09Rv6lt3ZK51/HLF7xj2YVgl3g1xNzwQ0Ao=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UV4CVP/0FSPDoQgaXPsnsc6vLrky7tsIcOmTGBxkiDg=
+			SuXc3DGmlDSSxanYpsOr4yRrktx4eX9NLaVoM2jRfnA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -305,7 +305,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4trQG0W55nn6GvgdnDy5u0TlCrhnIQvKoOTZa8XjTAU=
+			atCbn6RwZIgcIK4WmP/Hce6MfUYPSIS1FZyktZaud7A=
 			</data>
 		</dict>
 	</dict>

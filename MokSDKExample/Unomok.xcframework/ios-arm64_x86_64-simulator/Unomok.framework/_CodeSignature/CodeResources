@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/Unomok-Swift.h</key>
 		<data>
-		dsRiHB7QtU+An/uxfJ0L4bx+Jzw=
+		ZHZbdW2rFsfIywnDu0ndmNMp1Ww=
 		</data>
 		<key>Headers/Unomok.h</key>
 		<data>
@@ -22,43 +22,43 @@
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XpqmC7qJkwaG3svGChvvQAUfLgE=
+		PSYIPx+mpNZE2XN3j3DI/S8z5mg=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/L4eQOE7YPnfSKSgOk8HIjFWGKE=
+		UW/rgWO5W139AfLrXND9Ozu68Lc=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DgmaulzEhA/HmCCBG17gPjX1kPo=
+		z4KK8iqP5CPjfhPFNfmBtW4PmoU=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/L4eQOE7YPnfSKSgOk8HIjFWGKE=
+		UW/rgWO5W139AfLrXND9Ozu68Lc=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y7VhC4QS9ZwHuwUez3UMZGRq+EE=
+		9hg855Kt94RrrE2GCIrDSRVbWhg=
 		</data>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XpqmC7qJkwaG3svGChvvQAUfLgE=
+		PSYIPx+mpNZE2XN3j3DI/S8z5mg=
 		</data>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kMzRkIO/buINiAaBmxvDrF/cw/Q=
+		NA1x++0WIYsDf71hEguZNvpp1hM=
 		</data>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PyyWTguNtUmGtrZFbmgYqiIhpJ0=
+		liEH4CHLvliFPNWW2YhacyMf6bE=
 		</data>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kMzRkIO/buINiAaBmxvDrF/cw/Q=
+		NA1x++0WIYsDf71hEguZNvpp1hM=
 		</data>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jO6u5ILOfPhpg57kNZJAJIWF/Ig=
+		3fbB2sipNCkRWH3GsNjCIDGGFEg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Mok.storyboardc/x4R-0P-dBL-view-kqF-l0-smk.nib</key>
 		<data>
-		CmezX5YhqxhDWBQatBWmSCbfDVE=
+		XwaqQg0hPpbJrfbKY1odd64dfF0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -150,7 +150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GbyYhr4+uQry/61EaDVRK2IKNCDWkYw97U4Rc/FmJcA=
+			jqYSMHBvO007SWdjtp39z5T1uT+xMSvDzOB8+h6TQLE=
 			</data>
 		</dict>
 		<key>Headers/Unomok.h</key>
@@ -164,70 +164,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/PT4Ant/cM+jkhTnvTJDKF2Qkux/duglvcQa7rdK6zM=
+			LjyH5LVDwfo8Kx9PqSUAUHuYmmr+0vSyF1OHBMzNFIA=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UCWe43uI2wQ4G20P8a16ILVMp/AqwQdg3c/uU5B/za4=
+			LcG3cP/towLvQVb54WkKs55l2ud1R9pv4jXbVjb4p0c=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fc3E0H8p78UpvB1ICtNZu75vKu7s6BZLZ8xdZIp3xZE=
+			4vHXk+RTwVF3GS74PKNq5gDHBEFVfACf5GlTa71xpvM=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UCWe43uI2wQ4G20P8a16ILVMp/AqwQdg3c/uU5B/za4=
+			LcG3cP/towLvQVb54WkKs55l2ud1R9pv4jXbVjb4p0c=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QhmRixRFVJLDSx6yBxiDkOWjJNhnqtEcU1KKaAPITP8=
+			UCpH6f81e8vINc6lA8QsfGQ/9vpD/59ajBsRvdaIW08=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/PT4Ant/cM+jkhTnvTJDKF2Qkux/duglvcQa7rdK6zM=
+			LjyH5LVDwfo8Kx9PqSUAUHuYmmr+0vSyF1OHBMzNFIA=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vjW60JphY7o/ETFsgAcGyLYmtBwJXTy0H9f6NNy4z+g=
+			dK6IMl++TiKZH1DHeXBgVVfdb4iG2fz19MJrFWGqwko=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RFUwaL/SWg4fGAS+0MvFjKtzQFJ6qPgYtunLEc3jkMA=
+			sSNm1y3k1tSWSeNUiOUG9SWjGTnpxJ/v31pY54KuLh8=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vjW60JphY7o/ETFsgAcGyLYmtBwJXTy0H9f6NNy4z+g=
+			dK6IMl++TiKZH1DHeXBgVVfdb4iG2fz19MJrFWGqwko=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N7gzoOhJm15hgu7wQsE+RLtxHBbowcTRywnIMcnXcOM=
+			CAcZNfmRVdutCrPoSe9FYY6BIMOwnXn2MMIeYbpldx8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -360,7 +360,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4trQG0W55nn6GvgdnDy5u0TlCrhnIQvKoOTZa8XjTAU=
+			atCbn6RwZIgcIK4WmP/Hce6MfUYPSIS1FZyktZaud7A=
 			</data>
 		</dict>
 	</dict>

@@ -1443,7 +1443,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(isProductionEnv:sdkReadKey:sdkWriteKey:)",
+            "printedName": "init(isProductionEnv:userId:sdkReadKey:sdkWriteKey:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1468,11 +1468,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6Unomok6MokSDKV15isProductionEnv10sdkReadKey0g5WriteI0ACSb_S2Stcfc",
-            "mangledName": "$s6Unomok6MokSDKV15isProductionEnv10sdkReadKey0g5WriteI0ACSb_S2Stcfc",
+            "usr": "s:6Unomok6MokSDKV15isProductionEnv6userId10sdkReadKey0i5WriteK0ACSb_S3Stcfc",
+            "mangledName": "$s6Unomok6MokSDKV15isProductionEnv6userId10sdkReadKey0i5WriteK0ACSb_S3Stcfc",
             "moduleName": "Unomok",
             "declAttributes": [
               "AccessControl",
@@ -3227,6 +3233,16 @@
         "printedName": "AVKit",
         "declKind": "Import",
         "moduleName": "Unomok"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Unomok",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6440,6 +6456,47 @@
       },
       {
         "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "Unomok"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Unomok",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Starscream",
+        "printedName": "Starscream",
+        "declKind": "Import",
+        "moduleName": "Unomok",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CallKit",
+        "printedName": "CallKit",
+        "declKind": "Import",
+        "moduleName": "Unomok"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "Unomok"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9110,168 +9167,182 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1375,
+      "offset": 1355,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
+      "length": 10,
+      "value": "\"_iOS_SDK\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
       "length": 44,
       "value": "\"✅ Project Environment saved successfully\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1644,
+      "offset": 1878,
       "length": 38,
       "value": "\"✅ SDK Write Key saved successfully\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1807,
+      "offset": 2053,
       "length": 51,
       "value": "\"❌ Error Setup Error : SDK write key is missing.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2037,
+      "offset": 2307,
       "length": 37,
       "value": "\"✅ SDK Read Key saved successfully\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2198,
+      "offset": 2480,
       "length": 49,
       "value": "\"❌ Error Setup Erro : SDK read key is missing.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2366,
+      "offset": 2668,
       "length": 40,
       "value": "\"➡️ Fetching current device details\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 2569,
+      "offset": 2891,
       "length": 41,
       "value": "\"➡️ Advance targetting on debug mode\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3416,
+      "offset": 3768,
       "length": 31,
       "value": "\"➡️ Requesting update user\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3674,
+      "offset": 4026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4486,
+      "offset": 4838,
       "length": 37,
       "value": "\"➡️ Requesting logging an event.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4800,
+      "offset": 5152,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5447,
+      "offset": 5799,
       "length": 61,
       "value": "\"➡️ Registering for device token for remote notification\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6228,
+      "offset": 6580,
       "length": 44,
       "value": "\"➡️ Registering for remote notification\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6927,
+      "offset": 7279,
       "length": 54,
       "value": "\"➡️ Fecthing pending In app messages from server.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 7480,
+      "offset": 7832,
       "length": 50,
       "value": "\"➡️ Fecthing pending In app messages from db.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8046,
+      "offset": 8398,
       "length": 21,
       "value": "\"OnClosingInappPopup\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8257,
+      "offset": 8609,
       "length": 66,
       "value": "\"=================Displaying In app Messages=====================\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 8577,
+      "offset": 8929,
       "length": 54,
       "value": "\"➡️ Removing all pending In app messages from db.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 9785,
+      "offset": 10137,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 12480,
+      "offset": 12832,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 12511,
+      "offset": 12863,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 12557,
+      "offset": 12909,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 13282,
+      "offset": 13634,
       "length": 39,
       "value": "\"➡️ Removing all carousel from db.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/MokSDK.swift",
       "kind": "StringLiteral",
-      "offset": 13678,
+      "offset": 14030,
       "length": 35,
       "value": "\"➡️ Handling Push notification\""
     },
@@ -9734,99 +9805,120 @@
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
       "offset": 1139,
-      "length": 15,
-      "value": "\"registration\/\""
+      "length": 29,
+      "value": "\"customer\/v1.2\/registration\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
-      "length": 20,
-      "value": "\"add-user-activity\/\""
+      "offset": 1200,
+      "length": 34,
+      "value": "\"customer\/v1.2\/add-user-activity\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 17,
-      "value": "\"pending-popups\/\""
+      "offset": 1270,
+      "length": 31,
+      "value": "\"customer\/v1.2\/pending-popups\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1298,
-      "length": 19,
-      "value": "\"mark_read_in_app\/\""
+      "offset": 1340,
+      "length": 33,
+      "value": "\"customer\/v1.2\/mark_read_in_app\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1341,
-      "length": 18,
-      "value": "\"onboarding-data\/\""
+      "offset": 1400,
+      "length": 32,
+      "value": "\"customer\/v1.2\/onboarding-data\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1381,
-      "length": 17,
-      "value": "\"caraousel-data\/\""
+      "offset": 1457,
+      "length": 31,
+      "value": "\"customer\/v1.2\/caraousel-data\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1426,
-      "length": 15,
-      "value": "\"tooltip-data\/\""
+      "offset": 1519,
+      "length": 29,
+      "value": "\"customer\/v1.2\/tooltip-data\/\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
+      "kind": "StringLiteral",
+      "offset": 1585,
+      "length": 31,
+      "value": "\"register-call-on-your-server\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
       "offset": 1139,
-      "length": 15,
-      "value": "\"registration\/\""
+      "length": 29,
+      "value": "\"customer\/v1.2\/registration\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
-      "length": 20,
-      "value": "\"add-user-activity\/\""
+      "offset": 1200,
+      "length": 34,
+      "value": "\"customer\/v1.2\/add-user-activity\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 17,
-      "value": "\"pending-popups\/\""
+      "offset": 1270,
+      "length": 31,
+      "value": "\"customer\/v1.2\/pending-popups\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1298,
-      "length": 19,
-      "value": "\"mark_read_in_app\/\""
+      "offset": 1340,
+      "length": 33,
+      "value": "\"customer\/v1.2\/mark_read_in_app\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1341,
-      "length": 18,
-      "value": "\"onboarding-data\/\""
+      "offset": 1400,
+      "length": 32,
+      "value": "\"customer\/v1.2\/onboarding-data\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1381,
-      "length": 17,
-      "value": "\"caraousel-data\/\""
+      "offset": 1457,
+      "length": 31,
+      "value": "\"customer\/v1.2\/caraousel-data\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
       "kind": "StringLiteral",
-      "offset": 1426,
-      "length": 15,
-      "value": "\"tooltip-data\/\""
+      "offset": 1519,
+      "length": 29,
+      "value": "\"customer\/v1.2\/tooltip-data\/\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
+      "kind": "StringLiteral",
+      "offset": 1585,
+      "length": 31,
+      "value": "\"register-call-on-your-server\/\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/MokRequestItems.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1927,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokFullScreenVideoViewController.swift",
@@ -10279,98 +10371,98 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "StringLiteral",
-      "offset": 8345,
+      "offset": 8369,
       "length": 40,
       "value": "\"✅ Picture in picture video dismissed\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9016,
+      "offset": 9040,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9654,
+      "offset": 9678,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "StringLiteral",
-      "offset": 9805,
+      "offset": 9829,
       "length": 19,
       "value": "\"pause.circle.fill\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "StringLiteral",
-      "offset": 9998,
+      "offset": 10022,
       "length": 11,
       "value": "\"play.fill\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "StringLiteral",
-      "offset": 10199,
+      "offset": 10223,
       "length": 14,
       "value": "\"speaker.fill\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "StringLiteral",
-      "offset": 10216,
+      "offset": 10240,
       "length": 20,
       "value": "\"speaker.slash.fill\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10626,
+      "offset": 10650,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "StringLiteral",
-      "offset": 10687,
+      "offset": 10711,
       "length": 36,
       "value": "\"arrow.up.left.and.arrow.down.right\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11082,
+      "offset": 11106,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11094,
+      "offset": 11118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11855,
+      "offset": 11879,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11891,
+      "offset": 11915,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Custom\/MokVideoPlayerPipView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11928,
+      "offset": 11952,
       "length": 1,
       "value": "0"
     },
@@ -10769,23 +10861,16 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4241,
+      "offset": 4244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4507,
+      "offset": 4510,
       "length": 40,
       "value": "\"✅ Success: \""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4543,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
@@ -10797,35 +10882,42 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4645,
-      "length": 42,
-      "value": "\"❌ Error: \""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4686,
+      "offset": 4549,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4777,
+      "offset": 4648,
+      "length": 42,
+      "value": "\"❌ Error: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4689,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4780,
       "length": 81,
       "value": "\"❌ Error: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4841,
+      "offset": 4844,
       "length": 15,
       "value": "\"Unknown error\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokScreenDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4857,
+      "offset": 4860,
       "length": 2,
       "value": "\"\""
     },
@@ -10972,161 +11064,210 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 776,
+      "offset": 800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 804,
+      "offset": 828,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 833,
+      "offset": 857,
       "length": 7,
       "value": "\"00:00\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 868,
+      "offset": 892,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1253,
+      "offset": 1217,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1451,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1494,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1581,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1625,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 7,
+      "value": "\"00:00\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1687,
-      "length": 9,
-      "value": "\"Unknown\""
+      "offset": 1333,
+      "length": 10,
+      "value": "\"00:00:00\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1347,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1354,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1499,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1629,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1673,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1726,
+      "offset": 1762,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1876,
+      "offset": 1912,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2088,
+      "offset": 2124,
       "length": 8,
       "value": "0xB2B2B2"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2117,
+      "offset": 2153,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2330,
+      "offset": 2366,
       "length": 21,
       "value": "\"MokDismissOnCallEnd\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2535,
+      "offset": 2571,
       "length": 16,
       "value": "\"UpdateCallTime\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2704,
+      "offset": 2740,
       "length": 6,
       "value": "\"time\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2726,
+      "offset": 2762,
       "length": 7,
       "value": "\"00:00\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 2808,
+      "length": 7,
+      "value": "\"00:00\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2827,
+      "length": 10,
+      "value": "\"00:00:00\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2848,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2767,
+      "offset": 2887,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2880,
+      "offset": 3000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3247,
+      "offset": 3367,
       "length": 19,
       "value": "\"SwitchLoudSpeaker\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokCallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3306,
+      "offset": 3426,
       "length": 17,
       "value": "\"isLoudSpeakerOn\""
     },
@@ -11721,147 +11862,147 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13742,
+      "offset": 13795,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13770,
+      "offset": 13823,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13790,
+      "offset": 13843,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13810,
+      "offset": 13863,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13829,
+      "offset": 13882,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13849,
+      "offset": 13902,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13948,
+      "offset": 14005,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 14009,
+      "offset": 14070,
       "length": 10,
       "value": "\"fullpage\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 14215,
+      "offset": 14288,
       "length": 11,
       "value": "\"spotlight\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14386,
+      "offset": 14467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 14416,
+      "offset": 14501,
       "length": 9,
       "value": "\"tooltip\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14634,
+      "offset": 14727,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 14777,
+      "offset": 14874,
       "length": 5,
       "value": "\"pip\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 14954,
+      "offset": 15059,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 15094,
+      "offset": 15211,
       "length": 13,
       "value": "\"bottomsheet\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 15333,
+      "offset": 15462,
       "length": 17,
       "value": "\"blank or normal\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 15509,
+      "offset": 15650,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 15746,
+      "offset": 15907,
       "length": 21,
       "value": "\"OnClosingInappPopup\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 16593,
+      "offset": 16800,
       "length": 21,
       "value": "\"OnClosingInappPopup\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 16665,
+      "offset": 16872,
       "length": 11,
       "value": "\"in_app_id\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokInAppMessageManager.swift",
       "kind": "StringLiteral",
-      "offset": 16700,
+      "offset": 16907,
       "length": 2,
       "value": "\"\""
     },
@@ -12302,119 +12443,119 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1038,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1048,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1306,
+      "offset": 1309,
       "length": 56,
       "value": "\"✅ Success: All Onboarding data fetched successfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1460,
+      "offset": 1463,
       "length": 49,
       "value": "\"❌ Decode Error: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1508,
+      "offset": 1511,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1602,
       "length": 84,
       "value": "\"❌ APIError: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1666,
+      "offset": 1669,
       "length": 15,
       "value": "\"Unknown error\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 1682,
+      "offset": 1685,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2713,
       "length": 5,
       "value": "\"Mok\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 2813,
+      "offset": 2816,
       "length": 29,
       "value": "\"MokOnboardingViewController\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3044,
       "length": 63,
       "value": "\"❌ Onboarding Screen Error: Unable to load onboarding screen\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3260,
+      "offset": 3263,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3415,
+      "offset": 3418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3551,
+      "offset": 3554,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3781,
+      "offset": 3784,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "Array",
-      "offset": 3943,
+      "offset": 3946,
       "length": 163,
       "value": "[\"mp4\", \"mov\", \"avi\", \"mkv\", \"flv\", \"wmv\", \"m4v\", \"webm\", \"3gp\", \"ogg\", \"ogv\", \"m2v\", \"mpeg\", \"mpg\", \"mpv\", \"qt\", \"rm\", \"ram\", \"vob\", \"asf\", \"ts\", \"tsv\", \"divx\"]"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokOnboardingManager.swift",
       "kind": "Array",
-      "offset": 4476,
+      "offset": 4479,
       "length": 163,
       "value": "[\"mp4\", \"mov\", \"avi\", \"mkv\", \"flv\", \"wmv\", \"m4v\", \"webm\", \"3gp\", \"ogg\", \"ogv\", \"m2v\", \"mpeg\", \"mpg\", \"mpv\", \"qt\", \"rm\", \"ram\", \"vob\", \"asf\", \"ts\", \"tsv\", \"divx\"]"
     },
@@ -12982,685 +13123,685 @@
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
       "offset": 355,
-      "length": 41,
-      "value": "\"https:\/\/live.mok.one\/api\/customer\/v1.2\/\""
+      "length": 27,
+      "value": "\"https:\/\/live.mok.one\/api\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 425,
-      "length": 40,
-      "value": "\"https:\/\/dev.mok.one\/api\/customer\/v1.2\/\""
+      "offset": 411,
+      "length": 26,
+      "value": "\"https:\/\/dev.mok.one\/api\/\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 590,
       "length": 10,
       "value": "\"Portrait\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 735,
+      "offset": 707,
       "length": 22,
       "value": "\"Portrait Upside Down\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 825,
       "length": 16,
       "value": "\"Landscape Left\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 939,
       "length": 17,
       "value": "\"Landscape Right\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1038,
       "length": 9,
       "value": "\"Face up\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1133,
       "length": 11,
       "value": "\"Face down\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1254,
+      "offset": 1226,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1404,
+      "offset": 1376,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1514,
+      "offset": 1486,
       "length": 11,
       "value": "\"Unplugged\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 1596,
       "length": 10,
       "value": "\"Charging\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1741,
+      "offset": 1713,
       "length": 13,
       "value": "\"Full Charge\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1885,
+      "offset": 1857,
       "length": 8,
       "value": "\"iPhone\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1966,
+      "offset": 1938,
       "length": 6,
       "value": "\"iPad\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2047,
+      "offset": 2019,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2200,
       "length": 11,
       "value": "\"Connected\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
+      "offset": 2315,
       "length": 13,
       "value": "\"No internet\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2505,
+      "offset": 2477,
       "length": 10,
       "value": "\"writeKey\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2604,
+      "offset": 2576,
       "length": 9,
       "value": "\"readKey\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2709,
+      "offset": 2681,
       "length": 45,
       "value": "\"❌ DB Error: Error in opening Mok database\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 2768,
       "length": 42,
       "value": "\"❌ Error in preparing delete statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2852,
       "length": 42,
       "value": "\"❌ Error in executing delete statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2963,
+      "offset": 2935,
       "length": 41,
       "value": "\"❌ Error in preparing fetch statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3046,
+      "offset": 3018,
       "length": 51,
       "value": "\"❌ Error in preparing check If Exists statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3140,
+      "offset": 3112,
       "length": 64,
       "value": "\"❌ Error in binding inAppId parameter for checking existence.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3254,
+      "offset": 3226,
       "length": 41,
       "value": "\"❌ Error in binding parameter at index\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3337,
+      "offset": 3309,
       "length": 42,
       "value": "\"❌ Error in executing insert statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3421,
+      "offset": 3393,
       "length": 42,
       "value": "\"❌ Error in executing update statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3505,
+      "offset": 3477,
       "length": 42,
       "value": "\"❌ Error in preparing insert statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3589,
+      "offset": 3561,
       "length": 42,
       "value": "\"❌ Error in preparing update statement.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3671,
+      "offset": 3643,
       "length": 31,
       "value": "\"❌ Error in creating table: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3739,
+      "offset": 3711,
       "length": 37,
       "value": "\"❌ Error in creating Mok database:\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3817,
+      "offset": 3789,
       "length": 47,
       "value": "\"❌ DB Error: Unable to save Inapp Popup data\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3898,
+      "offset": 3870,
       "length": 38,
       "value": "\"❌ DB Error: Error closing database\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3977,
+      "offset": 3949,
       "length": 35,
       "value": "\"❌ DB Error: Unable to save data\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4051,
+      "offset": 4023,
       "length": 36,
       "value": "\"❌ DB Error: inappId is not valid\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4129,
+      "offset": 4101,
       "length": 39,
       "value": "\"❌ DB Error: carouselId is not valid\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4207,
+      "offset": 4179,
       "length": 35,
       "value": "\"❌ Error: Error preparing query.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4345,
+      "offset": 4317,
       "length": 48,
       "value": "\"✅ Deleted all In App Notification Popup Data\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4429,
+      "offset": 4401,
       "length": 41,
       "value": "\"✅ Data saved to InAppPopupData table.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4509,
+      "offset": 4481,
       "length": 44,
       "value": "\"✅ Data inserted to InAppPopupData table.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4592,
+      "offset": 4564,
       "length": 40,
       "value": "\"✅ Data InAppPopupData table modified\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4674,
+      "offset": 4646,
       "length": 32,
       "value": "\"✅ Deleted all carousel data.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4750,
+      "offset": 4722,
       "length": 37,
       "value": "\"✅ DivIdIos Data Inserted to Table\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4843,
+      "offset": 4815,
       "length": 40,
       "value": "\"✅ Carousel Content Inserted to Table\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4928,
+      "offset": 4900,
       "length": 41,
       "value": "\"✅ Carousel Data Fetched Successfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5018,
+      "offset": 4990,
       "length": 50,
       "value": "\"✅ Pending Inapp Messages fetched Successfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5097,
+      "offset": 5069,
       "length": 25,
       "value": "\"➡️ Opening Database\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5159,
+      "offset": 5131,
       "length": 27,
       "value": "\"✅ Removed an audio file\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5270,
+      "offset": 5242,
       "length": 12,
       "value": "\"mok.sqlite\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5308,
+      "offset": 5280,
       "length": 8,
       "value": "\"UserId\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5343,
+      "offset": 5315,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5387,
+      "offset": 5359,
       "length": 17,
       "value": "\"isProductionEnv\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5434,
+      "offset": 5406,
       "length": 17,
       "value": "\"Mok SDK Service\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5480,
+      "offset": 5452,
       "length": 11,
       "value": "\"ApnsToken\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5649,
+      "offset": 5621,
       "length": 666,
       "value": "\"    CREATE TABLE IF NOT EXISTS InAppPopupData (\n        id INTEGER PRIMARY KEY AUTOINCREMENT,\n        in_app_id TEXT,\n        org_id TEXT,\n        client_id TEXT,\n        json_data TEXT,\n        comment TEXT,\n        is_active INTEGER,\n        updatedBy TEXT,\n        createdBy TEXT,\n        created_at TEXT,\n        updated_at TEXT,\n        read INTEGER,\n        type TEXT,\n        max_read INTEGER,\n        current_read INTEGER,\n        div_id_ios_screen_name TEXT,\n        div_id_ios TEXT\n    );\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6363,
+      "offset": 6335,
       "length": 57,
       "value": "\"SELECT COUNT(*) FROM DivIdIosTable WHERE carouselId = ?\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6478,
+      "offset": 6450,
       "length": 92,
       "value": "\"SELECT COUNT(*) FROM  CarouselContentTable  WHERE carouselId = ? and type = ? and url = ?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6632,
+      "offset": 6604,
       "length": 58,
       "value": "\"SELECT COUNT(*) FROM InAppPopupData WHERE in_app_id = ?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6750,
+      "offset": 6722,
       "length": 58,
       "value": "\"SELECT COUNT(*) FROM CarouselTable WHERE carouselId = ?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6860,
+      "offset": 6832,
       "length": 378,
       "value": "\"    INSERT INTO InAppPopupData (\n        in_app_id, org_id, client_id, json_data, comment,\n        is_active,updatedBy , createdBy, created_at, updated_at, read, type,\n        max_read, current_read, div_id_ios_screen_name , div_id_ios\n    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7288,
+      "offset": 7260,
       "length": 372,
       "value": "\"    UPDATE InAppPopupData\n    SET org_id = ?, client_id = ?, json_data = ?, comment = ?, is_active = ?, updatedBy = ?,\n    createdBy = ?, created_at = ?, updated_at = ?, read = ?,type = ?,\n    max_read = ?, current_read = ?, div_id_ios_screen_name = ?, div_id_ios = ?\n    WHERE in_app_id = ?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7691,
+      "offset": 7663,
       "length": 29,
       "value": "\"DELETE FROM InAppPopupData;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7760,
+      "offset": 7732,
       "length": 95,
       "value": "\"SELECT * FROM InAppPopupData WHERE div_id_ios_screen_name = ? or div_id_ios_screen_name = '';\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7904,
+      "offset": 7876,
       "length": 212,
       "value": "\"CREATE TABLE IF NOT EXISTS CarouselTable (\n    carouselId TEXT PRIMARY KEY,\n    orgId TEXT,\n    createdAt TEXT,\n    updatedAt TEXT,\n    clientId TEXT,\n    divId TEXT\n);\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8164,
+      "offset": 8136,
       "length": 184,
       "value": "\"INSERT INTO CarouselTable (\ncarouselId, orgId, createdAt, updatedAt, clientId, divId\n) VALUES (?, ?, ?, ?, ?, ?)\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8396,
+      "offset": 8368,
       "length": 179,
       "value": "\"    UPDATE CarouselTable\n    SET orgId = ?, createdAt = ?, updatedAt = ?, clientId = ?, divId = ?\n    WHERE carouselId = ?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8626,
+      "offset": 8598,
       "length": 198,
       "value": "\"    CREATE TABLE IF NOT EXISTS CarouselContentTable (\n        id INTEGER,\n        carouselId TEXT,\n        type TEXT,\n        url TEXT\n    );\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8865,
+      "offset": 8837,
       "length": 167,
       "value": "\"    CREATE TABLE IF NOT EXISTS DivIdIosTable (\n    carouselId TEXT,\n    screenName TEXT,\n    identifier TEXT\n);\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9083,
+      "offset": 9055,
       "length": 47,
       "value": "\"DELETE FROM DivIdIosTable WHERE carouselId=?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9166,
+      "offset": 9138,
       "length": 81,
       "value": "\"INSERT INTO DivIdIosTable (carouselId, screenName, identifier) VALUES (?, ?, ?)\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9302,
+      "offset": 9274,
       "length": 62,
       "value": "\"DELETE FROM CarouselContentTable WHERE carouselId=? and id=?\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9419,
+      "offset": 9391,
       "length": 82,
       "value": "\"INSERT INTO CarouselContentTable (carouselId, id, type, url) VALUES (?, ?, ?, ?)\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9559,
+      "offset": 9531,
       "length": 51,
       "value": "\"DELETE FROM InAppPopupData WHERE in_app_id NOT IN\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9661,
+      "offset": 9633,
       "length": 51,
       "value": "\"DELETE FROM CarouselTable WHERE carouselId NOT IN\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9770,
+      "offset": 9742,
       "length": 58,
       "value": "\"DELETE FROM CarouselContentTable WHERE carouselId NOT IN\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9873,
+      "offset": 9845,
       "length": 51,
       "value": "\"DELETE FROM DivIdIosTable WHERE carouselId NOT IN\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9973,
+      "offset": 9945,
       "length": 53,
       "value": "\"SELECT * FROM InAppPopupData WHERE in_app_id NOT IN\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10081,
+      "offset": 10053,
       "length": 51,
       "value": "\"SELECT * FROM DivIdIosTable WHERE screenName = ?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10182,
+      "offset": 10154,
       "length": 51,
       "value": "\"SELECT * FROM CarouselTable WHERE carouselId = ?;\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10281,
+      "offset": 10253,
       "length": 29,
       "value": "\"SELECT * FROM CarouselTable\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10350,
+      "offset": 10322,
       "length": 50,
       "value": "\"SELECT * FROM DivIdIosTable WHERE carouselId = ?\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10446,
+      "offset": 10418,
       "length": 57,
       "value": "\"SELECT * FROM CarouselContentTable WHERE carouselId = ?\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10545,
+      "offset": 10517,
       "length": 27,
       "value": "\"DELETE FROM CarouselTable\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10618,
+      "offset": 10590,
       "length": 34,
       "value": "\"DELETE FROM CarouselContentTable\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10688,
+      "offset": 10660,
       "length": 27,
       "value": "\"DELETE FROM DivIdIosTable\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10771,
+      "offset": 10743,
       "length": 46,
       "value": "\"DELETE FROM DivIdIosTable WHERE carouselId=?\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11843,
+      "offset": 11815,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11868,
+      "offset": 11840,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11843,
+      "offset": 11815,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11868,
+      "offset": 11840,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12145,
+      "offset": 12117,
       "length": 6,
       "value": "\"html\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12169,
+      "offset": 12141,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12194,
+      "offset": 12166,
       "length": 7,
       "value": "\"video\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12145,
+      "offset": 12117,
       "length": 6,
       "value": "\"html\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12169,
+      "offset": 12141,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/MokConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12194,
+      "offset": 12166,
       "length": 7,
       "value": "\"video\""
     },
@@ -13691,6 +13832,118 @@
       "offset": 1401,
       "length": 15,
       "value": "\"Player error:\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
+      "length": 8,
+      "value": "\"callId\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 12,
+      "value": "\"callStatus\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 15,
+      "value": "\"audioEncoding\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 12,
+      "value": "\"sampleRate\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 24,
+      "value": "\"audioWebsocketProtocol\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 16,
+      "value": "\"startTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 12,
+      "value": "\"audioWsUrl\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
+      "length": 8,
+      "value": "\"callId\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 12,
+      "value": "\"callStatus\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 15,
+      "value": "\"audioEncoding\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 12,
+      "value": "\"sampleRate\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 24,
+      "value": "\"audioWebsocketProtocol\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 16,
+      "value": "\"startTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokRegisterCallResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 12,
+      "value": "\"audioWsUrl\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Helpers\/Model\/MokInAppMessage.swift",
@@ -14892,310 +15145,660 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 829,
+      "offset": 845,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 851,
+      "offset": 867,
       "length": 109,
       "value": "\"===============Automatically logged Button Tap Event===============\n\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 961,
       "length": 6,
       "value": "\" tapped\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "Array",
-      "offset": 2447,
+      "offset": 2463,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2624,
+      "offset": 2640,
       "length": 9,
       "value": "\"PL_iOS_\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 3729,
+      "offset": 3745,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "Array",
-      "offset": 4821,
+      "offset": 4837,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 5099,
+      "offset": 5115,
       "length": 54,
       "value": "\"Error converting JSON string to dictionary: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 5152,
+      "offset": 5168,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "Dictionary",
-      "offset": 5270,
+      "offset": 5286,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 5642,
+      "offset": 5658,
       "length": 138,
       "value": "\"<html><head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"><\/head><body>\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 5790,
+      "offset": 5806,
       "length": 16,
       "value": "\"<\/body><\/html>\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6233,
+      "offset": 6249,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6244,
+      "offset": 6260,
       "length": 5,
       "value": "\"%20\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6778,
+      "offset": 6794,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6789,
+      "offset": 6805,
       "length": 5,
       "value": "\"%20\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6858,
+      "offset": 6874,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 7820,
+      "offset": 7836,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 8081,
+      "offset": 8097,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 9015,
+      "offset": 9031,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 9159,
+      "offset": 9175,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 9315,
+      "offset": 9331,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 9703,
+      "offset": 9719,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 9709,
+      "offset": 9725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 9728,
+      "offset": 9744,
       "length": 6,
       "value": "\"%.0f\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 9759,
+      "offset": 9775,
       "length": 6,
       "value": "\"%.2f\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 10042,
+      "offset": 10058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 10058,
+      "offset": 10074,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 10305,
+      "offset": 10321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 10322,
+      "offset": 10338,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 10434,
+      "offset": 10450,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 10492,
+      "offset": 10508,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 10535,
+      "offset": 10551,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 10576,
+      "offset": 10592,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 10669,
+      "offset": 10685,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 10720,
+      "offset": 10736,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 10726,
+      "offset": 10742,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 10759,
+      "offset": 10775,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 10764,
+      "offset": 10780,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 10794,
+      "offset": 10810,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 10926,
+      "offset": 10941,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10971,
+      "length": 10,
+      "value": "\"Unoknown\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 11071,
+      "offset": 11350,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 11082,
+      "offset": 11361,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Utilities\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 11467,
+      "offset": 11746,
       "length": 7,
       "value": "\"00:00\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 503,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 925,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 967,
+      "length": 67,
+      "value": "\"❌ Error setting up audio session: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1238,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1742,
+      "length": 36,
+      "value": "\"websocket is connected: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1777,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1856,
+      "length": 57,
+      "value": "\"websocket is disconnected: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 4,
+      "value": "\" with code: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1912,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 26,
+      "value": "\"Received text: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2035,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2096,
+      "length": 30,
+      "value": "\"Received data: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2125,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2256,
+      "length": 11,
+      "value": "\"Cancelled\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2327,
+      "length": 63,
+      "value": "\"❌ Socket Error: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2379,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2435,
+      "length": 17,
+      "value": "\"***************\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2741,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2828,
+      "length": 13,
+      "value": "\"Invalid url\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2981,
+      "length": 30,
+      "value": "\"unable to process audio data\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3169,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3458,
+      "length": 6,
+      "value": "\"okay\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4054,
+      "length": 21,
+      "value": "\"output_\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4074,
+      "length": 27,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4100,
+      "length": 5,
+      "value": "\"wav\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4240,
+      "length": 5,
+      "value": "24000"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4273,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4305,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4716,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4830,
+      "length": 14,
+      "value": "\"file creates\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5010,
+      "length": 65,
+      "value": "\"Error saving binary data to file: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5074,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5919,
+      "length": 12,
+      "value": "\"callerName\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6079,
+      "length": 45,
+      "value": "\"❌ Unable to initiate a new incoming call.\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6512,
+      "length": 54,
+      "value": "\"error in ending call: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6565,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7294,
+      "length": 9,
+      "value": "\"output_\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7471,
+      "length": 44,
+      "value": "\"Removed file: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7514,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7567,
+      "length": 53,
+      "value": "\"Error removing files: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7619,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7805,
+      "length": 14,
+      "value": "\"initial play\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8056,
+      "length": 10,
+      "value": "\"call end\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8843,
+      "length": 11,
+      "value": "\"Audio end\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokWebSocketForCallManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8911,
+      "length": 11,
+      "value": "\"next play\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/View\/Controller\/MokBlankViewController.swift",
@@ -15557,518 +16160,476 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 1775,
       "length": 5,
       "value": "\"fcm\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2446,
+      "offset": 2453,
       "length": 42,
       "value": "\"✅ Registered for remote notifications.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3285,
+      "offset": 3292,
       "length": 48,
       "value": "\"❌ Invalid Device APNs token. Restart the App\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3370,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3367,
+      "offset": 3374,
       "length": 48,
       "value": "\"❌ Invalid Device APNs token. Restart the App\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4534,
+      "offset": 4519,
       "length": 6,
       "value": "\"%02x\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4571,
+      "offset": 4556,
       "length": 36,
       "value": "\"token String: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 4606,
+      "offset": 4591,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5181,
+      "offset": 5166,
       "length": 35,
       "value": "\"Devicetoken in data: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5215,
+      "offset": 5200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5305,
+      "offset": 5290,
       "length": 29,
       "value": "\"TokenString: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5333,
+      "offset": 5318,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5477,
+      "offset": 5462,
       "length": 14,
       "value": "\"device_token\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5613,
+      "offset": 5598,
       "length": 47,
       "value": "\"✅ Device APNs token registered succesfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5811,
+      "offset": 5796,
       "length": 43,
       "value": "\"❌ Unable to register Device APNs token.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 5892,
+      "offset": 5877,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6661,
+      "offset": 6646,
       "length": 47,
       "value": "\"✅ Device APNs token registered succesfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6724,
+      "offset": 6709,
       "length": 28,
       "value": "\"➡️ Fetching FCM Token.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6904,
+      "offset": 6889,
       "length": 70,
       "value": "\"❌ FCM Token Error: Error fetching FCM registration token: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 6973,
+      "offset": 6958,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7008,
+      "offset": 6993,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7012,
+      "offset": 6997,
       "length": 70,
       "value": "\"❌ FCM Token Error: Error fetching FCM registration token: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7081,
+      "offset": 7066,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7148,
+      "offset": 7133,
       "length": 38,
       "value": "\"✅ FCM registration token: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7185,
+      "offset": 7170,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7239,
+      "offset": 7224,
       "length": 24,
       "value": "\"fcm_registration_token\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7549,
+      "offset": 7534,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 7704,
+      "offset": 7689,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8182,
+      "offset": 8167,
       "length": 47,
       "value": "\"➡️ Checking for Silent Push Notification.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8383,
+      "offset": 8368,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8406,
+      "offset": 8391,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8437,
+      "offset": 8422,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8459,
+      "offset": 8444,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8620,
+      "offset": 8605,
       "length": 8,
       "value": "\"silent\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
+      "offset": 8638,
       "length": 8,
       "value": "\"silent\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 9683,
+      "offset": 9668,
       "length": 66,
       "value": "\"=================Displaying In app Messages=====================\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10484,
+      "offset": 10469,
       "length": 17,
       "value": "\"apple_push_type\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10532,
+      "offset": 10517,
       "length": 12,
       "value": "\"audio_call\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10670,
+      "offset": 10555,
       "length": 18,
       "value": "\"apple_audio_data\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10720,
+      "offset": 10605,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10911,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 10960,
-      "length": 15,
-      "value": "\"No audio data\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11038,
-      "length": 17,
-      "value": "\"apple_push_type\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11086,
-      "length": 12,
-      "value": "\"video_call\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11224,
-      "length": 18,
-      "value": "\"apple_video_data\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11274,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11465,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11515,
-      "length": 15,
-      "value": "\"No audio data\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11581,
-      "length": 16,
-      "value": "\"Not Audio call\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12044,
+      "offset": 11378,
       "length": 11,
       "value": "\"push_type\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12097,
+      "offset": 11427,
       "length": 12,
       "value": "\"audio_data\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12135,
+      "offset": 11465,
       "length": 12,
       "value": "\"audio_call\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12230,
+      "offset": 11560,
       "length": 33,
       "value": "\"Received audio URL: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12262,
+      "offset": 11592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12412,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 12464,
-      "length": 11,
-      "value": "\"push_type\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12517,
-      "length": 12,
-      "value": "\"video_data\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12555,
-      "length": 12,
-      "value": "\"video_call\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12650,
-      "length": 33,
-      "value": "\"Received Video URL: \""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12682,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12832,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12874,
-      "length": 16,
-      "value": "\"Not video call\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 13353,
+      "offset": 12288,
       "length": 15,
       "value": "\"popup_configs\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13384,
+      "offset": 12319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13434,
+      "offset": 12369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 13799,
+      "offset": 12730,
       "length": 21,
       "value": "\"get_in_app_msg_data\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13834,
+      "offset": 12765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "Dictionary",
+      "offset": 13297,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14292,
+      "offset": 13372,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13662,
+      "length": 57,
+      "value": "\"✅ Success: Successfully registered you call to server\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13812,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14059,
+      "length": 22,
+      "value": "\"✅ Valid socket url\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14168,
+      "length": 31,
+      "value": "\"❌ Error: Invalid Socket Url\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14285,
+      "length": 42,
+      "value": "\"❌ Error: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14326,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14390,
+      "length": 81,
+      "value": "\"❌ Error: \""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14454,
+      "length": 15,
+      "value": "\"Unknown error\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14470,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14680,
       "length": 66,
       "value": "\"✅ Firebase registration token: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14357,
+      "offset": 14745,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14401,
+      "offset": 14799,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14422,
+      "offset": 14820,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14497,
+      "offset": 14901,
       "length": 10,
       "value": "\"FCMToken\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14620,
+      "offset": 15034,
       "length": 24,
       "value": "\"fcm_registration_token\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokPushNotificationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14658,
+      "offset": 15072,
       "length": 2,
       "value": "\"\""
     },
@@ -17474,386 +18035,351 @@
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 526,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 540,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 710,
       "length": 17,
       "value": "\"CurrentCallUdid\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 768,
+      "offset": 732,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 960,
+      "offset": 924,
       "length": 17,
       "value": "\"CurrentCallUdid\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 1059,
+      "offset": 1023,
       "length": 17,
       "value": "\"CurrentCallUdid\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1240,
-      "length": 9,
-      "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1361,
+      "offset": 1312,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1465,
+      "offset": 1416,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1498,
+      "offset": 1449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 1507,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1595,
-      "length": 12,
-      "value": "\"image hein\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2446,
+      "offset": 2150,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 2200,
       "length": 63,
       "value": "\"Error setting up audio session: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 2262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 2424,
       "length": 22,
       "value": "\"download started....\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 2884,
+      "offset": 2526,
       "length": 21,
       "value": "\"Downloads completed\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 3280,
+      "offset": 2997,
       "length": 12,
       "value": "\"AudioFiles\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
-      "length": 13,
-      "value": "\"Video Files\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3366,
+      "offset": 3067,
       "length": 23,
       "value": "\"Sound File downloaded\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 3447,
+      "offset": 3148,
       "length": 19,
       "value": "\"local file exists\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 3784,
+      "offset": 3347,
       "length": 21,
       "value": "\"Unable to make call\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 4076,
+      "offset": 3639,
       "length": 19,
       "value": "\"SwitchLoudSpeaker\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4221,
+      "offset": 3784,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4233,
+      "offset": 3796,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 4423,
+      "offset": 3986,
       "length": 16,
       "value": "\"UpdateCallTime\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 4519,
+      "offset": 4082,
       "length": 6,
       "value": "\"time\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4542,
+      "offset": 4105,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 4947,
+      "offset": 4510,
       "length": 19,
       "value": "\"Invalid file path\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 5167,
+      "offset": 4730,
       "length": 58,
       "value": "\"Error playing local audio: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 5224,
+      "offset": 4787,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 5677,
+      "offset": 5240,
       "length": 54,
       "value": "\"error in ending call: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 5730,
+      "offset": 5293,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 5851,
+      "offset": 5414,
       "length": 13,
       "value": "\"Ending Call\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 6182,
+      "offset": 5702,
       "length": 21,
       "value": "\"MokDismissOnCallEnd\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 6385,
+      "offset": 5905,
       "length": 5,
       "value": "\"Mok\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 6478,
+      "offset": 5998,
       "length": 23,
       "value": "\"MokCallViewController\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6831,
+      "offset": 6314,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 7000,
+      "offset": 6483,
       "length": 17,
       "value": "\"isLoudSpeakerOn\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7031,
+      "offset": 6514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 7161,
+      "offset": 6624,
       "length": 21,
       "value": "\"removing local file\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 7403,
+      "offset": 6866,
       "length": 28,
       "value": "\"File removed successfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 7469,
+      "offset": 6932,
       "length": 52,
       "value": "\"Error removing file: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 7520,
+      "offset": 6983,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 8354,
+      "offset": 7817,
       "length": 42,
       "value": "\"❌ Source URL Error: Invalid url string\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 8629,
+      "offset": 8092,
       "length": 47,
       "value": "\"❌ Destination URL Error: Invalid url string\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 9005,
+      "offset": 8468,
       "length": 52,
       "value": "\"❌ \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 9023,
+      "offset": 8486,
       "length": 8,
       "value": "\" Download Error:\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 9055,
+      "offset": 8518,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 9146,
+      "offset": 8609,
       "length": 30,
       "value": "\"✅ Downloaded successfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 9594,
+      "offset": 9057,
       "length": 13,
       "value": "\"Answer call\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 9894,
+      "offset": 9271,
       "length": 15,
       "value": "\"Playing audio\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 10116,
-      "length": 26,
-      "value": "\"OnDispalyingNotification\""
-    },
-    {
-      "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10284,
+      "offset": 9527,
       "length": 25,
       "value": "\"end\/decline call action\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCallManager.swift",
       "kind": "StringLiteral",
-      "offset": 10610,
+      "offset": 9853,
       "length": 32,
       "value": "\"Ending call on audio completed\""
     },
@@ -17874,252 +18400,252 @@
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 1252,
+      "offset": 1255,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1265,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 1521,
+      "offset": 1524,
       "length": 54,
       "value": "\"✅ Success: All Carousel data fetched successfully.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1602,
       "length": 47,
       "value": "\"➡️ Saving carousel data to local storage.\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 1932,
+      "offset": 1935,
       "length": 49,
       "value": "\"❌ Decode Error: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 1980,
+      "offset": 1983,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2074,
       "length": 84,
       "value": "\"❌ APIError: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2141,
       "length": 15,
       "value": "\"Unknown error\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 2154,
+      "offset": 2157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2543,
       "length": 45,
       "value": "\"carouselArray count: \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 2584,
+      "offset": 2587,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
+      "offset": 3053,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 4421,
+      "offset": 4424,
       "length": 48,
       "value": "\"carousel array count is \""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 4468,
+      "offset": 4471,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4509,
+      "offset": 4512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7198,
+      "offset": 7201,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7229,
+      "offset": 7232,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7275,
+      "offset": 7278,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 8053,
+      "offset": 8056,
       "length": 5,
       "value": "\"Mok\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 8183,
+      "offset": 8186,
       "length": 27,
       "value": "\"MokCarouselViewController\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9876,
+      "offset": 9879,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11190,
+      "offset": 11193,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11291,
+      "offset": 11294,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11384,
+      "offset": 11387,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11479,
+      "offset": 11482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11550,
+      "offset": 11553,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11664,
+      "offset": 11667,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11765,
+      "offset": 11768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11861,
+      "offset": 11864,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 13064,
+      "offset": 13067,
       "length": 42,
       "value": "\"Mok_\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 13081,
+      "offset": 13084,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 13096,
+      "offset": 13099,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 13105,
+      "offset": 13108,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13286,
+      "offset": 13289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13363,
+      "offset": 13366,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/bindurs\/Documents\/Office works\/SDKs\/Unomok\/Sources\/Services\/MokCarouselViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13379,
+      "offset": 13382,
       "length": 4,
       "value": "true"
     },

@@ -264,9 +264,6 @@ class UMHomeViewController: MokBaseViewController {
             hideLoading()
         }
     }
-    @IBAction func nextTapped(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "details", sender: self)
-    }
 }
 
 extension UMHomeViewController : UITextFieldDelegate {

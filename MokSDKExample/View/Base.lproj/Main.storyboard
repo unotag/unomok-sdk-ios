@@ -55,7 +55,7 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YXy-rY-RS8">
-                                <rect key="frame" x="0.0" y="103" width="393" height="749.00000000000045"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQG-7C-Z6X">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1943"/>
@@ -694,14 +694,7 @@
                             <constraint firstAttribute="trailing" secondItem="YXy-rY-RS8" secondAttribute="trailing" id="riu-OO-OOY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fj4-ce-dcg">
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="c8c-ae-9En">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <action selector="nextTapped:" destination="Vrc-Zl-FLJ" id="0vT-PY-fla"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="fj4-ce-dcg"/>
                     <connections>
                         <outlet property="activityIndicatorBGView" destination="kqk-1Q-08t" id="RhQ-6d-JNn"/>
                         <outlet property="activityIndicatorView" destination="Nm7-kE-gqm" id="rHZ-k1-dfe"/>
@@ -711,57 +704,11 @@
                         <outlet property="fcmTokenLabel" destination="4h3-Ap-sgE" id="IkW-l0-9Ip"/>
                         <outlet property="updateButton" destination="BDf-nZ-Cg1" id="DPh-sY-1Ma"/>
                         <outlet property="userIdTextField" destination="JZo-aH-C9W" id="afV-IV-xBP"/>
-                        <segue destination="5NO-tJ-Xbm" kind="presentation" identifier="details" id="x3T-Ar-RrA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tSj-Or-Ahj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="852.67175572519079" y="-11.267605633802818"/>
-        </scene>
-        <!--Details View Controller-->
-        <scene sceneID="oSA-Ec-MTh">
-            <objects>
-                <viewController storyboardIdentifier="UMDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5NO-tJ-Xbm" customClass="UMDetailsViewController" customModule="MokSDKExample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mPz-AE-efa">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a99-Gf-HxS">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BE-nQ-ngy">
-                                        <rect key="frame" x="20" y="10" width="353" height="822"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <accessibility key="accessibilityConfiguration" label="PL_iOS_Test_Label"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <accessibility key="accessibilityConfiguration" label="PL_iOS_popup"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="4BE-nQ-ngy" secondAttribute="trailing" constant="20" id="4yp-5a-QbO"/>
-                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="centerY" secondItem="a99-Gf-HxS" secondAttribute="centerY" id="70H-wW-8tM"/>
-                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="centerX" secondItem="a99-Gf-HxS" secondAttribute="centerX" id="Ltl-N1-adk"/>
-                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="leading" secondItem="a99-Gf-HxS" secondAttribute="leading" constant="20" id="pLs-e4-6yY"/>
-                                    <constraint firstItem="4BE-nQ-ngy" firstAttribute="top" secondItem="a99-Gf-HxS" secondAttribute="top" constant="10" id="vlT-Rb-fbc"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="ub4-NN-kNG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="a99-Gf-HxS" firstAttribute="top" secondItem="ub4-NN-kNG" secondAttribute="top" id="4OZ-gS-V0R"/>
-                            <constraint firstItem="ub4-NN-kNG" firstAttribute="trailing" secondItem="a99-Gf-HxS" secondAttribute="trailing" id="DRo-7n-cws"/>
-                            <constraint firstItem="ub4-NN-kNG" firstAttribute="bottom" secondItem="a99-Gf-HxS" secondAttribute="bottom" id="mfc-j4-Kut"/>
-                            <constraint firstItem="a99-Gf-HxS" firstAttribute="leading" secondItem="ub4-NN-kNG" secondAttribute="leading" id="qGJ-DQ-hhZ"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cye-2E-OjE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1539" y="-15"/>
         </scene>
     </scenes>
     <resources>

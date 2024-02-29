@@ -27,7 +27,8 @@ Mok is a customer engagement platform for websites and mobile apps. It offers an
     - [In-app Messages and Popups](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#in-app-messages-and-popups)
     - [In-app Carousel Views](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#in-app-carousel-views)
     - [Onboarding Views](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#onboarding-views)
-
+    - [Marketing Call](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#push-notification)
+    
 ## Prerequisites
 - iOS 16.0 or later
 - Xcode 14 and later
@@ -362,4 +363,14 @@ The following method will display all the onboarding views:
 MokSDK.showOnboardingScreen()
 ```
 
+### Marketing Call
+
+The marketing calls are initiated via Push notification. So complete the [Push notification](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#push-notification) setup for this. Also, enable the Voice over IP of your app:
+
+1. Open Xcode.
+2. Select your project in the Project Navigator.
+3. Click on the target for your app.
+4. Go to the Signing & Capabilities tab.
+5. Find the Background Modes section.
+6. Enable the Voice over IP option.
 
