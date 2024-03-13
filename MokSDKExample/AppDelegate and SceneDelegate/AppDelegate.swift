@@ -19,6 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             isProductionEnv: false,
             sdkReadKey: "YOUR_MOK_READ_KEY",
             sdkWriteKey: "YOUR_MOK_WRITE_KEY")
+        
+        // Move the updateUser method from here and add it based on your use case.
+        let id = "MOASDK_ID_1001"
+        let params = [
+            "name": id+"_iOS_SDK"
+        ]
+        MokSDK.updateUser(userID: id, withParameters: params) { (successMessage, error) in
+        }
 
         UNUserNotificationCenter.current().delegate = self
         

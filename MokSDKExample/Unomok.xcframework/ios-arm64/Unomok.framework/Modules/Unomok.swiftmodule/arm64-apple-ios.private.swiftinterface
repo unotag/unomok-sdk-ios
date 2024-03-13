@@ -63,7 +63,7 @@ public struct MokSDK {
   public static func loadAllPendingPopups()
   public static func removeAllInappData()
   public static func fetchAllOnboardingScreenContents(completion: @escaping ([Unomok.MokOnboardingResponseData]?, (any Swift.Error)?) -> Swift.Void)
-  public static func showOnboardingScreen()
+  public static func showOnboardingScreen(completion: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   public static func fetchAllCarouselContents(completion: @escaping ([Unomok.MokCarouselResponseData], (any Swift.Error)?) -> Swift.Void)
   public static func fetchAllCarouselContentsFromLocalStorage(completion: @escaping ([(divId: Swift.String, content: [Unomok.MokCarouselContent], divDetails: Unomok.MokDivIdIos)]) -> Swift.Void)
   public static func showCarouselViews(completion: @escaping () -> Swift.Void)
@@ -76,6 +76,10 @@ public struct MokSDK {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MokBaseViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public var isPopupFetchingView: Swift.Bool {
+    get
+    set
+  }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -137,7 +141,7 @@ public struct MokPopupConfigs : Swift.Codable {
   public let getInAppMsgData: Swift.Bool?
   public let startTime: Swift.String?
   public let endTime: Swift.String?
-  public let divName: Swift.String?
+  public let divIdIos: Unomok.MokDivIdIos?
   public let buttonName: Swift.String?
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
@@ -165,11 +169,11 @@ public struct MokCarouselResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct MokCarouselContent : Swift.Codable {
-  public let id: Swift.Int?
+  public let id: Swift.String?
   public let type: Swift.String?
   public let url: Swift.String?
   public init(from decoder: any Swift.Decoder) throws
-  public init(id: Swift.Int, type: Swift.String, url: Swift.String)
+  public init(id: Swift.String, type: Swift.String, url: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct MokDivIdIos : Swift.Codable {

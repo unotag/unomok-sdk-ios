@@ -56,7 +56,7 @@ class UMHomeViewController: MokBaseViewController {
     }
     
     private func setupUserIdTextField() {
-        userIdTextField.text = "MOASDK_1001"
+        userIdTextField.text = "MOASDK_ID_1001"
         userIdTextField.becomeFirstResponder()
     }
     
@@ -249,18 +249,24 @@ class UMHomeViewController: MokBaseViewController {
     }
     
     @IBAction func showOnboardingScreenTapped(_ sender: UIButton) {
-        MokSDK.showOnboardingScreen()
+        MokSDK.showOnboardingScreen {
+            print("Onboarding View displayed")
+        } onDismiss: {
+            print("Onboarding View dismissed")
+        }
     }
     
     @IBAction func fetchCarousalDataTapped(_ sender: UIButton) {
         showLoading()
-        MokSDK.fetchAllCarouselContents { [self] carousalArray, error in
-            print("Carousal data count: \(carousalArray.count)")
-            
-            if let error {
-                print(error.localizedDescription)
+        DispatchQueue.global().async {
+            MokSDK.fetchAllCarouselContents { [self] carousalArray, error in
+                print("Carousal data count: \(carousalArray.count)")
+                
+                if let error {
+                    print(error.localizedDescription)
+                }
+                hideLoading()
             }
-            hideLoading()
         }
     }
     

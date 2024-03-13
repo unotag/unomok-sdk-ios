@@ -26,8 +26,9 @@ Mok is a customer engagement platform for websites and mobile apps. It offers an
     - [Device Details Fetching](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#device-details-fetching)
     - [In-app Messages and Popups](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#in-app-messages-and-popups)
     - [In-app Carousel Views](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#in-app-carousel-views)
+    - [MokBaseViewController](https://github.com/unotag/unomok-sdk-ios/tree/main?tab=readme-ov-file#mokbaseviewcontroller)
     - [Onboarding Views](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#onboarding-views)
-    - [Marketing Call](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#push-notification)
+    - [Marketing Call](https://github.com/unotag/unomok-sdk-ios?tab=readme-ov-file#marketing-call)
     
 ## Prerequisites
 - iOS 16.0 or later
@@ -340,6 +341,22 @@ MokSDK.removeAllCarouselData { _ in
 }
 ```
 
+### MokBaseViewController
+
+MokBaseViewController is a subclass of UIViewController. Once the in-app popups and carousel view data are fetched from the server, and if you want to automatically display the in-app popups and carousel views on loading viewDidLoad, then make that UIViewController a subclass of MokBaseViewController.
+
+If you want to disable automatically displaying in-app popups, then set the value of the boolean property, isPopupFetchingView as true. You have to add this boolean in viewDidLoad before calling super.viewDidLoad().
+
+```swift
+class UMHomeViewController : MokBaseViewController {
+ override func viewDidLoad() {
+  isPopupFetchingView = true // Remove this if you want to automatically display In App popups
+  super.viewDidLoad()
+ }
+}
+
+```
+
 ### Onboarding Views
 
 With Mok SDK,  you can display onboarding views that are configured through the dashboard. 
@@ -359,8 +376,12 @@ To fetch all onboarding  view contents use the following method:
 The following method will display all the onboarding views:
 
 ```swift
-MokSDK.showOnboardingScreen()
-```
+MokSDK.showOnboardingScreen {
+
+} onDismiss: {
+
+}
+ ```
 
 ### Marketing Call
 
