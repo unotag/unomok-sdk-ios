@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "Unomok"
-spec.version      = "1.0.7"
+spec.version      = "1.0.8"
 spec.summary      = "Mok is a customer engagement platform for websites and mobile apps."
 spec.description  = <<-DESC
 Mok is a customer engagement platform for websites and mobile apps. It offers an integrated suite for simplifying notifications for engineering and product management.

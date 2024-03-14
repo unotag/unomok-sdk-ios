@@ -76,7 +76,7 @@ public struct MokSDK {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MokBaseViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) public var isPopupFetchingView: Swift.Bool {
+  @_Concurrency.MainActor(unsafe) open var isPopupFetchingView: Swift.Bool {
     get
     set
   }

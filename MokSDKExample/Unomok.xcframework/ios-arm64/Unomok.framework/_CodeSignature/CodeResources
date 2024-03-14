@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Us31XGGh6AFG5zlVetimjAs94vk=
+		fxBay3NXAqUYovMZIrcDcfufRQk=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		dwGa1K0yVHY/aYQQR9HfIc0xRA8=
+		kt24tSvwEwm4FH87KIShjALS1lE=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		dwGa1K0yVHY/aYQQR9HfIc0xRA8=
+		kt24tSvwEwm4FH87KIShjALS1lE=
 		</data>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5ZWgFpvq9vIdgPLXiFZ57wlg5MU=
+		+8UYOg/EaEnS1LNg0QS6eVE2cqM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -144,14 +144,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mggwb89PdmPFQS8M50alo1KVcI4ztGZyWN2dNK8XSxI=
+			1aMO0hZvDXpodml02pVKkmjiM4a1S8DlfRPlBEF6PE4=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Vuxua+txJWH+zn9DCy1Zvs/ds4jBxBeF2YBpFWCfjc=
+			fXE9TFVFU8Tf8gkr1zSz5j0cF3/go1BV0uIOEpXrpf8=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -165,14 +165,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Vuxua+txJWH+zn9DCy1Zvs/ds4jBxBeF2YBpFWCfjc=
+			fXE9TFVFU8Tf8gkr1zSz5j0cF3/go1BV0uIOEpXrpf8=
 			</data>
 		</dict>
 		<key>Modules/Unomok.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FwIWaKRNavu6OH0uCU8mlo9JaMU05qWX+zYHVD1vJGU=
+			JV8eYF2wPMemYX+jcEOiCfKG1lquGLmgKNSeKzGnDY0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
