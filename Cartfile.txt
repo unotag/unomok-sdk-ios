@@ -1,1 +1,1 @@
-binary https://github.com/unotag/unomok-sdk-ios/releases/download/1.0.6/Unomok.xcframework.zip ~> 1.0.3
+binary https://github.com/unotag/unomok-sdk-ios/releases/download/1.0.7/Unomok.xcframework.zip ~> 1.0.3
